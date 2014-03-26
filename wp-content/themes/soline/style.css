@@ -1,0 +1,946 @@
+/*
+Theme Name: Soline
+Theme URI: http://www.solinemoveis.com.br/
+Description: Tema Wordpress
+Version: 1.1
+Tags: editor-style
+*/
+
+@charset "utf-8"; 
+html {
+    margin-top: 0px !important;
+}
+*{
+@charset "utf-8"; 
+	margin:0px;
+	padding:0px;
+}
+
+
+a{text-decoration:none;color:#999;}
+li{list-style:none;}
+
+body{
+	font:14px Arial, Helvetica, sans-serif;
+}
+
+.home h1{
+	font:18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	float:left;
+	width:388px;
+}
+.home p.destaque{
+	margin-left:10px;
+	float:left;
+	width:445px;
+	text-align:justify;
+	font-size:14px;
+	line-height:20px;
+	letter-spacing:0.5px;
+}
+
+img{border:0px;}
+.home #conteudo ul.destaque{
+	height:6.2em;
+	margin-left:10px;
+	float:left;
+	background:#F7F7F7;
+	padding:3px 0px 3px 21px;
+	width:422px;
+	overflow:hidden;
+	border: 1px solid #CCCCCC;
+}
+
+#dest{
+	float:left;
+}
+
+
+.home #conteudo ul.destaque li{
+	float:left;
+	width: 205px;
+	list-style-image:url("images/bullet.png");
+}
+
+.home #conteudo ul.destaque li a{
+	color:#000;
+	display:block;
+	margin-bottom:1px;
+	margin-right:5px;
+	text-decoration:underline;
+}
+
+.home #conteudo ul.destaque li a:hover{
+	color:#9f0000;
+}
+
+
+#conteudo div.central{
+	width:585px;
+	float:left;
+}
+#conteudo div.centralProduto{
+	width:758px;
+	float:left;
+	margin-bottom:20px;
+}
+
+#conteudo div.centralProduto img{
+	float:left;
+}
+
+#conteudo div.centralProduto div.lat{
+	float:right;
+	width:45%;
+}
+#conteudo div.centralProduto div.latgrd{
+	float:right;
+	/*width:65%;*/
+	width: 45%;
+}
+
+#conteudo div.centralProduto div.det{
+	background:#EEF5D6;
+	float:right;
+	padding:10px;
+	border:1px solid #999999;
+	min-height:150px;
+	width:95%;
+	margin-top:10px;
+	max-height:450px;
+	overflow:auto;
+}
+
+#conteudo div.centralProduto p{
+	margin-top:7px;
+	width:auto;
+}
+
+#conteudo div.centralProduto a.bt{
+	margin-top:0px;
+	width:auto;
+	float:right;
+	margin-top:10px;
+}
+#conteudo div.centralProduto a.bt-novo{
+	margin-top:20px;
+	background-color:#720505;
+	width:160px;
+	height:75px;
+	float:right;
+	padding-top:25px;
+	color:white;
+	text-align:center;
+}
+#conteudo div.centralProduto a.bt-novo span{
+	display:block;
+}
+#conteudo div.centralProduto div.faixa-preco{
+	margin-top:20px;
+	float:left;
+	width:140px;
+	height:60px;
+	background:#F1F1F1;
+	padding:20px;
+}
+#conteudo div.centralProduto div.faixa-preco strong{
+	display:block;
+	margin-bottom:5px;
+}
+#conteudo div.centralProduto div.lat p{
+	margin-top:20px;
+	float:left;
+}
+#conteudo div.centralProduto div.lat p a{
+	display:none;
+}
+
+
+#conteudo div.central div.texto{
+	margin-left:0px;
+	font-size:14px;
+	font-weight:normal;
+	line-height:25px;
+
+}
+#conteudo div.central div.texto p{
+	margin-top:15px;
+	text-align:justify;
+}
+#conteudo div.central div.texto ul li{
+	list-style:square inside;
+}
+#conteudo div.central div.texto h3{
+	margin-top:20px;
+}
+#conteudo div.central form.arquiF{
+	width:400px;
+	margin:auto;
+	float:none;
+}
+
+#conteudo div.central div.col{
+	margin-left:0px;
+	font-size:14px;
+	font-weight:normal;
+	line-height:25px;
+	width:50%;
+	float:left;
+}
+
+#conteudo div#post-30.central{
+	font-weight:normal;
+}
+
+#produtoslista span.breadcrumbs{
+	float:left;
+	width:100%;
+}
+
+div#post-2.central h1{
+	margin-bottom:10px;
+}
+
+div#post-2.central img{
+	float:right;
+	margin-left:15px;
+	margin-top:25px;
+	margin-bottom:10px;
+}
+.cases #conteudo .central p{
+	float:none;
+}
+
+#conteudo.produto img.bt{
+	border:0px;
+}
+
+#conteudo.produto p{
+	margin-top:40px;
+	width:190px;
+	display:block;
+}
+
+#conteudo.produto #descProduto p{
+	width:auto;
+	margin-top:20px;
+}
+
+#conteudo #produtoslista p{
+	margin-top:-54px;
+	width:189px;
+}
+#conteudo{
+	height:400px;
+}
+#mapa{
+	float:right;
+	width:350px;
+}
+
+#esquerda{
+	width:195px;
+	float:left;
+}
+.menuaco{
+	top:142px;
+}
+
+#chamadas{
+	float:left;
+	width:600px;
+	overflow:hidden;
+}
+#chamadas div{
+	float:left;
+	width:48%;
+}
+
+#chamadas div.first{
+	margin-right:18px;
+}
+
+#chamadas form{
+	margin-bottom:30px;
+}
+
+#produtosRelacionados{
+	display:table;
+	float:left;
+	overflow:hidden;
+	width:600px;
+}
+
+.cases .central{
+	width:585px;
+	float:left;
+}
+
+.cases .central h1{
+	margin-bottom:10px;
+}
+
+div#post-30.central{
+	width:355px;
+	float:left;
+	margin-left:10px;
+}
+
+#conteudo div#post-30.central p{
+	width:auto;
+	margin-left:0px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#conteudo #post-17 ul li{
+	float:left;
+	margin:20px;
+}
+
+#conteudo #mapa p{
+	width:auto;
+	margin-left:0px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#geral{
+	width:978px;
+	margin:auto;
+}
+
+
+
+h2{
+	float:left;
+	background:url(images/logotipo-soline.png) no-repeat black 23px 26px;
+	width: 172px;
+	height: 70px;
+	display:block;
+	text-indent:-1000px;
+	padding:26px 23px;
+}
+
+#teste{
+	float:left;
+	background:url(images/logotipo-soline.png) no-repeat black 23px 26px;
+	width:965px;
+	height:59px;
+	display:block;
+	text-indent:-1000px;
+	padding:26px 23px;
+}
+
+#banner{
+    float:right;
+}
+
+
+
+
+
+#showcase{
+	float:left;
+}
+#menu-topo{
+	float: right;
+	width: 760px;
+	color:white;
+	background:black;
+	display:table;
+}
+#menu-topo a.twitter{
+	margin-right:10px;
+	margin-top:5px;
+	float:right;
+	}
+
+#menu-topo ul{
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+
+#parte{
+   display: block;
+   height: 107px;
+
+   padding-top: 25px;
+   width: 978px;
+   background-color: black;
+}
+
+#atendimento{
+    float: right;
+    background-color: black;
+    height: 80px;
+    width: 150px;
+    
+}
+   
+#menu-topo ul li{
+	display:inline;
+	background:red;
+	}
+
+#menu-topo ul li a{
+	padding:14px 4px;
+	border-left:1px solid #999;
+	float:left;
+	color:#fff;
+	}
+
+#menu-topo ul li a.first{
+	border:none;
+	}
+
+#menu-topo ul li a:hover{
+	background:#9F0000;
+	}
+
+#menu-topo p{
+	float:left;
+	padding:12px 8px;
+	}
+
+#menu-lateral{
+	margin-top: 4px;
+	padding:7px;
+	width:195px;
+	background:black;
+	float:left;
+	color:#fff;
+        
+        
+}
+
+#menu-lateral ul.menu li a{
+	font-size:15px;
+	background:url("images/fundo-novo.jpg") no-repeat;
+	padding:4px;
+	display:block;
+	color:white;
+}
+
+#menu-lateral ul.menu li ul.sub-menu a{
+	border-bottom: 1px solid #1A1A1A;
+	background:black;
+}
+
+#menu-lateral ul.menu li ul.sub-menu a:hover{
+	background:#9F0000;
+}
+
+#conteudo{
+	float:right;
+	width:759px;
+	margin-top: 4px;
+	display:table;
+}
+
+#conteudo ul.produtos{
+	width:601px;
+	float:left;
+	margin-bottom:20px;
+}
+
+#conteudo table ul.produtos{
+	width:756px;
+}
+
+#conteudo ul.produtos li a{
+	margin-top:0px;
+}
+
+
+#conteudo ul.produtos li{
+	position:relative;
+	width:199px;
+	float:left;
+	height: 214px;
+	border: 1px solid #999999;
+	margin-right:-1px;
+	margin-top:-1px;
+}
+#conteudo table ul.produtos li{
+	width:188px;
+}
+
+#conteudo ul.produtos li img{
+	border:none;
+	margin:auto;
+	/*width:199px;
+	height:214px;*/
+	float:left;
+}
+
+#conteudo table ul.produtos li img{
+	width:188px;
+	max-height:214;
+}
+
+.wp-pagenavi {
+	height:23px;
+}
+
+#conteudo ul.produtos li p{
+	width:189px;
+	font-size:12px;
+	float:left;
+	color:#CCCCCC;
+	height: 48px;background:black;
+	background:rgba(0,0,0,0.7);
+	margin-top:-54px;
+	margin-left:1px;
+	overflow:hidden;
+    filter:opacity(alpha=70); /* para o IE */
+	padding:2px 4px 4px 4px;
+}
+#conteudo table ul.produtos li p{
+	width:178px;
+	margin-top:5px;
+}
+
+#conteudo ul.produtos li p strong{
+	color:white;
+	font-size:14px;
+	display:block;
+}
+
+#conteudo ul.produtos li a:hover p{
+	background:#9F0000;
+	background:rgba(159,0,0,0.7);
+    filter:opacity(alpha=70); /* para o IE */
+}
+
+#conteudo ul.produtos li p span.link-detalhes{
+	float:right;
+	color:white;
+}
+#conteudo ul.produtos li p span.destaquepqn{
+	display:block;
+	margin:3px 0px;	
+}
+#conteudo ul.produtos li p span.codigo{
+	float:left;
+	width:100px;
+	color:white;
+}
+
+h4{
+	padding:4px;
+	background:#EBEBEB;
+	margin-bottom:5px;
+	margin-top:5px;
+	width:100%;
+	border-bottom:1px solid #666666;
+	clear:both;
+}
+
+#conteudo ul{
+	padding-top:5px;
+}
+
+#conteudo h2{
+	font-size: 20px;
+	color:#9F0000;
+}
+
+#banner{
+	width:150px;
+	float:right;
+}
+
+#banner p {
+	margin-top: 10px;
+}
+
+#banner a img{
+	border:0px;
+}
+
+
+#banner ul li{
+	padding-bottom:6px;
+	font-style:italic;
+}
+
+#rodape{
+	clear:both;
+	width:100%;
+	height:42px;
+	text-align:center;
+	font-size:12px;
+	padding-top:15px;
+}
+
+#rodape ul li{
+	display:inline;
+	padding:0px 10px;
+	margin:0px;
+	border-left:1px solid #dedede;
+	border-right:1px solid #dedede;
+}
+
+#produtoslista{
+	display:table;
+	float:left;
+	width:600px;
+	overflow:hidden;
+}
+#blog{
+	display:table;
+	float:left;
+	width:600px;
+	overflow:hidden;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#333;
+}
+#maistxt{
+	display:table;
+	float:left;
+	width:600px;
+	overflow:hidden;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#333;
+	margin-bottom:15px;
+}
+
+#blog p{
+	float:left;
+}
+h4 a{
+	color:#000;
+}
+
+#blog ul li{
+	float:left;
+	width:277px;
+	padding:10px;
+	overflow:hidden;
+	margin-bottom:10px;
+	background:#F5F5F5;
+	margin-right:3px;
+	height: 303px;
+}
+
+#blog ul li.last{
+	padding-left:10px;
+}
+#blog ul li a.title{
+	width:100%;
+	color:#333;
+	font:14px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	height:34px;
+	float:left;
+	font-weight:bold;
+	}
+#blog ul li p{
+	color:#333;
+	font:13px Arial, Helvetica, sans-serif;
+}
+#blog ul li img{
+	/*width:277px;*/
+	margin-top:5px;
+	border:1px solid #dedede;
+}
+
+#conteudo #produtoslista p.filtro{
+	float:left;
+	display:block;
+	margin-top:0px;
+	width:600px;
+	margin-top:5px;
+}
+
+#conteudo #produtoslista h1{
+	width:430px;
+	float:left;
+}
+
+#conteudo #produtoslista small{
+	font-size:12px;
+	color:#ccc;
+	float:left;
+	font-style:italic;
+	margin-top:-3px;
+}
+
+#conteudo #produtoslista ul.subcategorias{
+	float:left;
+	margin-bottom:5px;
+	margin-top:0px;
+}
+
+#conteudo #produtoslista ul.subcategorias li{
+	display:inline;
+}
+#conteudo #produtoslista ul.subcategorias li a{
+	font-size:12px;
+	font-style:italic;
+	color:#B1413F;
+	float:left;
+	margin-right:8px;
+	margin-bottom:3px;
+	text-decoration:underline;
+}
+#conteudo #produtoslista ul.subcategorias li a:hover{
+	color:black;
+}
+
+#conteudo #produtoslista ul.subcategorias li a.ultimo{
+	margin-right:0px;
+}
+
+
+
+form{
+	display:block;
+	float:left;
+}
+div#post-30.central form.vForm label{
+	margin-bottom:10px;
+    font-size:12px;
+}
+form.vForm label{
+	display:block;
+}
+form.vForm label input, form.vForm label textarea, form.vForm label select{
+	display:block;
+	width:90%;
+}
+form.vForm label textarea{
+	height:80px;
+}
+form.vForm label input, form.vForm label select{
+	height:25px;
+}
+
+div.error{
+	float:left;
+	display:block;
+	width:100%;
+	padding:10px;
+	background:#FFFFCC;
+	margin:bottom:15px;
+}
+h3.partes {
+	margin-top:60px;
+	float:left;
+	width:100%;
+}
+ul.partes li{
+	float:left;
+	border-bottom:1px solid #eee;
+	width:100%;
+}
+ul.partes li span{
+	padding:10px;
+	float:left;
+}
+ul.partes li:hover{
+	background:#eee;
+}
+#conteudo div.centralProduto p.cifroes {
+  padding-top: 30px;
+}
+.cifroes a,
+.cifroes span{
+  float: left;
+}
+.cifroes span{
+  background: url('images/cifrao.png') no-repeat;
+  width: 32px;
+  height: 32px;
+  text-indent: -900000px;
+  overflow: hidden;
+}
+ul.recursos li{
+  margin-bottom:10px;
+  float:left;
+}
+#conteudo.produto #descProduto ul.recursos li p{
+	float:left;
+	width:650px;
+}
+ul.recursos li img{
+	float:left;
+}
+#menu-menu-lateral,
+#menu-menu-de-aco{
+  float: left;
+  width: 100%;
+}
+.hidden{display: none;}
+#s-menu{
+  padding: 3px;
+  font-size: 12px;
+  width: 188px;
+  border: none;
+  font-style: italic;
+  color: #999;
+}
+#s-menu.ativo{color: #333; font-style: normal;}
+#busca_menu{padding-bottom: 10px;}
+#conteudo #produtoslista #category {float:left;margin-top:20px;margin-bottom:20px;}
+#conteudo #produtoslista #category p {margin-top:0px;width:100%}
+
+#conteudo #direita{
+	float:right;
+	width:200px;
+	height:514px;
+	margin-top:55px;
+	background-color:#ebebeb;
+	padding-left:8px;
+}
+
+#conteudo #direita h4{
+	font-size:14px;
+}
+
+#conteudo #esquerda{
+	width:526px;
+	float: left;
+	margin-top:15px;
+	padding-left: 11px;
+}
+
+#conteudo #esquerda .destaque-cofre{
+	float:right;
+}
+
+
+#conteudo #esquerda h3{
+	font-size:16px;
+	padding: 10px 0;
+}
+
+#conteudo #esquerda #img-cofre{
+	padding: 10px 0;
+}
+
+#conteudo #esquerda .cofre-titulo{
+	float:left;
+	width:350px;
+}
+
+#conteudo #esquerda .cofre-titulo a{
+	display:block;
+	margin-top:10px;
+	color:#06F;
+}
+
+#conteudo #esquerda p.cofre-titulo{
+	margin-top:20px;
+	font-size:16px;
+}
+
+#conteudo #esquerda h4{
+	background-color:#FFF;
+	font-size:14px;
+}
+
+#conteudo #direita h4{
+	background-color:#ebebeb;
+	margin:4px, 0, 6px, 0;
+	padding:0;
+}
+
+#conteudo #esquerda #bloco-dir{	
+	float:right;
+	width:150px;
+	margin:20px 0;
+}
+
+
+#conteudo #esquerda #bloco-dir ul li{
+	list-style-type:none;
+	margin-left:0;
+}
+
+#conteudo #esquerda #bloco-dir a{
+  color:#06F;
+}
+
+#conteudo #esquerda #bloco-esq{
+	float:left;
+	width:300px;
+	margin:20px 0 20px 5px;
+}
+
+#conteudo #esquerda #bloco-esq h4{
+	border:none;
+}
+
+#conteudo #esquerda h5{
+	clear:both;
+	font-size:16px;
+	background-color:#ebebeb;
+	padding:5px;
+}
+
+#conteudo #esquerda #bloco-geral ul#bloco1{
+	margin-top:10px;
+	padding-bottom: 20px;
+}
+#conteudo #esquerda #bloco-geral{
+	display:table;
+	width:100%;
+}
+
+#conteudo #esquerda #bloco-geral ul#bloco1{
+	float:left;
+	width:290px;
+	
+}
+
+#conteudo #esquerda #bloco-geral ul#bloco1 li{
+	list-style-type:none;
+}
+
+#conteudo #esquerda #bloco-geral ul#bloco2 li span, #conteudo #esquerda #bloco-geral ul#bloco1 li span {
+	margin-right:5px;
+}
+
+
+#conteudo #esquerda #bloco-geral #bloco2{
+	float:right;
+	width:180px;
+	
+}
+
+#conteudo #esquerda ul li{
+	margin-bottom:5px;
+	margin-left:10px;
+	float:left;
+	width:100%;
+}
+
+#conteudo #direita img{
+	margin:17px 0;
+}
+
+#conteudo #direita p{
+	line-height:20px;
+}
+
+#conteudo #bloco-esq p{
+	line-height:20px;
+}
+
+#conteudo #bloco-geral h5{
+	margin-left:5px;
+}
+
+/*sem pickachooise*/
+.pikachoose #pikame li img{
+    display: block;
+    top: 0px;
+    position: relative;
+    width: 74px;
+    height: 76px;
+    opacity: 0.4;
+	vertical-align:middle;
+}

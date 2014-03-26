@@ -1,0 +1,49 @@
+/*
+Theme Name: BodyClick
+Theme URI: http://wordpress.org/themes/bodyclick
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, gray, white, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: bodyclick
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.hero-unit {
+	background-color: #414141;
+	color: #fff;
+}
+
+h2{
+	padding:5px;
+	border-radius: 5px;
+}
+
+.turquesa{
+	background-color: #E3C5C4;
+}
+
+.hero-unit .btn-primary {
+	background-color: #D8450B;
+	background-image: -moz-linear-gradient(top, #D8450B, #E37B52);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D8450B), to(#E37B52));
+	background-image: -webkit-linear-gradient(top, #D8450B, #E37B52);
+	background-image: -o-linear-gradient(top, #D8450B, #E37B52);
+	background-image: linear-gradient(to bottom, #D8450B, #E37B52);
+}
+.flutuar-img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.flutuar-right {
+	float: right;
+}
+.flutuar-ico {
+	float: left;
+	margin-right: 5px;
+}

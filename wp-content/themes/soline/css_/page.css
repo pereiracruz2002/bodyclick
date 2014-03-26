@@ -1,0 +1,8 @@
+#conteudo a{ 
+	color:blue;
+	text-decoration: none;
+}
+
+#conteudo a:hover{
+	text-decoration:underline;
+}
