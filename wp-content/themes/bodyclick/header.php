@@ -37,7 +37,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.min.css" /> 
-
+  <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/jquery-1.10.2.min.js'></script>
+  <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js'></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="/js/html5shiv.js"></script>

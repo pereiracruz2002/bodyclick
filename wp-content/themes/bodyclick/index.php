@@ -60,12 +60,16 @@ get_header(); ?>
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-3">
-          <h2 class="turquesa">Menus</h2>
-          <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Messages</a></li>
-      </ul>
+          <h2 class="turquesa">Menus</h2> 
+  <?php
+     $args = array('child_of'=>4,'hide_empty'=>1,'hierarchical'=>0);
+     $my_categories = get_categories($args);
+  ?>
+        <ul class="nav nav-pills nav-stacked category_list">
+          <?php foreach( $my_categories as $category ):?>
+        	<li class="active"><a href="<?php echo get_category_link($category->term_id);?>"><?php echo $category->name;?></a></li>
+          <?php endforeach; ?>
+      	</ul>
 
         </div>
         <div class="col-md-9">

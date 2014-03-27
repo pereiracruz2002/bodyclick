@@ -29,11 +29,27 @@ get_header(); ?>
         <div id="post-<?php the_ID(); ?>" class="central">
 					<h1><?php the_title(); ?></h1>
             <div class="info-post">
-              <span class="data-post">Data do Post: 12 de abril de 2013</span>
-              - <span class="categoria-post">Categoria: <a href="#">Tecnologia</a></span>
+              <span class="data-post">Data da Publicação: <?php the_time('j \d\e F \d\e Y') ?></span>
+              - <span class="categoria-post">Categoria: <a href="#"><?php $categoria = get_the_category( $id ); echo $categoria[0]->name; ?></a></span>
             </div>
-            <br>
-					<?php the_content(); ?>
+            <div class="row">
+              <div class="col-md-6">
+                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
+                <img src="<?php echo $image[0]; ?>">
+              </div>
+              <div class="col-md-6">
+                <?php  if (has_excerpt() ) { ?>
+                <?php the_excerpt(); ?>
+                <?php }?>
+                <?php echo get_post_custom_values("preco")[0];?>
+                <?php echo get_post_custom_values("tamanho")[0];?>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+					       <?php the_content(); ?>
+              </div>
+            </div>
  
 <?php endwhile; ?>
             <div class="tags-post">
@@ -80,16 +96,8 @@ get_header(); ?>
 
 
      <div id="conteudo">
-<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-        <div id="post-<?php the_ID(); ?>" class="central">
-					<h1><?php the_title(); ?></h1>
-					<?php the_content(); ?>
- 
-<?php endwhile; ?>
 			  </div><!-- #central -->
-        <?php get_sidebar(); ?>
 		</div><!-- #conteudo -->
-<?php include_once("menu.php"); ?>
 <?php get_footer(); ?>
    </div>
 </body>
