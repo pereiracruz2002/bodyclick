@@ -75,54 +75,82 @@ get_header(); ?>
         <div class="col-md-9">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="turquesa">10 dicas para você crescer mais</h2>
-                <div class="col-md-2">
-                  <img src="img/ginastica.png" class="flutuar-img">
+              <div class="panel panel-danger">
+  			    <div class="panel-heading turquesa"><h4>10 dicas para você crescer mais</h4></div>
+			      <div class="panel-body">
+			    	<img src="<?php echo get_template_directory_uri(); ?>/img/ginastica.png" class="flutuar-img">
+			    	<p class="col-md-10">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn" href="post.html">Mais Detalhes &raquo;</a></p>
+			     </div>
                 </div>
-                <p class="col-md-10">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                 <p><a class="btn" href="post.html">Mais Detalhes &raquo;</a></p>
             </div>
             <div class="col-md-12">
-              <h2 class="turquesa">10 dicas para você crescer mais</h2>
-                <div class="col-md-2">
-                  <img src="img/ginastica.png" class="flutuar-img">
+              <div class="panel panel-danger">
+  			    <div class="panel-heading turquesa"><h4>10 dicas para você crescer mais</h4></div>
+			      <div class="panel-body">
+			    	<img src="<?php echo get_template_directory_uri(); ?>/img/ginastica.png" class="flutuar-img">
+			    	<p class="col-md-10">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn" href="post.html">Mais Detalhes &raquo;</a></p>
+			     </div>
                 </div>
-                <p class="col-md-10">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                 <p><a class="btn" href="post.html">Mais Detalhes &raquo;</a></p>
             </div>
-            <div class="col-md-12">
-              <h2 class="turquesa">Os menores preços</h2>
-                <div class="col-md-4">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <img src="img/whey.jpg" class="img-responsive">
-                     </div>
-            <div class="col-md-6" class="img-responsive">
-                      <p>Preço</p>
-                    </div>
-                  </div>
-                </div>
 
-                <div class="col-md-4">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <img src="img/whey.jpg" class="img-responsive">
-                     </div>
-            <div class="col-md-6" class="img-responsive">
-                      <p>Preço</p>
-                    </div>
-                  </div>
+             <div class="row">
+            <div class="col-md-12">
+			  <div class="col-md-4">
+				<div class="panel panel-danger">
+  			      <div class="panel-heading turquesa"><h4>Produto</h4></div>
+			      <div class="panel-body">
+			        <div class="row">
+			         <div class="col-md-6">
+			    	   <img src="<?php echo get_template_directory_uri(); ?>/img/whey.jpg" class="img-responsive">
+			         </div>
+			         <div class="col-md-6">
+				    	 <p><span class="label label-info">Novo</span></p>
+	                      <p>Preço</p>
+	                </div>
+	               </div>
+			     </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <img src="img/whey.jpg" class="img-responsive">
-                     </div>
-            <div class="col-md-6" class="img-responsive">
-                      <p>Preço</p>
-                    </div>
-                  </div>
+			  </div>
+			  <div class="col-md-4">
+				<div class="panel panel-danger">
+  			      <div class="panel-heading turquesa"><h4>Produto</h4></div>
+			      <div class="panel-body">
+			        <div class="row">
+			         <div class="col-md-6">
+			    	   <img src="<?php echo get_template_directory_uri(); ?>/img/whey.jpg" class="img-responsive">
+			         </div>
+			         <div class="col-md-6">
+				    	 <p><span class="label label-info">Novo</span></p>
+	                      <p>Preço</p>
+	                </div>
+	               </div>
+			     </div>
                 </div>
+			  </div>
+			  <div class="col-md-4">
+				<div class="panel panel-danger">
+  			      <div class="panel-heading turquesa"><h4>Produto</h4></div>
+			      <div class="panel-body">
+			        <div class="row">
+			         <div class="col-md-6">
+			    	   <img src="<?php echo get_template_directory_uri(); ?>/img/whey.jpg" class="img-responsive">
+			         </div>
+			         <div class="col-md-6">
+				    	 <p><span class="label label-info">Novo</span></p>
+	                      <p>Preço</p>
+	                </div>
+	               </div>
+			     </div>
+                </div>
+			  </div>
+            </div>
+
+             
+
+                
+      
             </div>
           </div>
        </div>
