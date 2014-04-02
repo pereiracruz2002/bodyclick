@@ -135,7 +135,7 @@ get_header(); ?>
 			      <div class="panel-body">
 			        <div class="row">
 			         <div class="col-md-6">
-			    	   <img src="<?php echo get_template_directory_uri(); ?>/img/whey.jpg" class="img-responsive">
+			    	   <a href="<?php the_permalink() ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/whey.jpg" class="img-responsive"></a>
 			         </div>
 			         <div class="col-md-6">
 				    	 <p><span class="label label-info">Novo</span></p>
