@@ -1,0 +1,1025 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rank",
+				"ranking_amigos"
+			],
+			[
+				"oa",
+				"oauth_token"
+			],
+			[
+				"condese",
+				"HelveticaCondensedBlackBlack"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"tempo",
+				"tempo_calculado"
+			],
+			[
+				"dados",
+				"dados_face"
+			],
+			[
+				"nova",
+				"novaDica"
+			],
+			[
+				"h",
+				"href"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"id",
+				"ids_palavras"
+			],
+			[
+				"clas",
+				"classe_promocao"
+			],
+			[
+				"frete",
+				"freteItem"
+			],
+			[
+				"ano",
+				"anoBase"
+			],
+			[
+				"depto",
+				"deptoId"
+			],
+			[
+				"opt",
+				"opts2"
+			],
+			[
+				"data",
+				"data_inclusao"
+			],
+			[
+				"mes",
+				"mes_assinatura"
+			],
+			[
+				"en",
+				"entity_id"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"num",
+				"num_pagas"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"valor",
+				"valor_explode"
+			],
+			[
+				"login",
+				"loginUrl"
+			],
+			[
+				"end",
+				"endereco"
+			],
+			[
+				"com",
+				"commands"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"add",
+				"Address"
+			],
+			[
+				"cpf",
+				"cpf_cnpj"
+			],
+			[
+				"result",
+				"results2"
+			],
+			[
+				"resut",
+				"results"
+			],
+			[
+				"box",
+				"box-p"
+			],
+			[
+				"C",
+				"CREATE"
+			],
+			[
+				"Z",
+				"ZIPARCHIVE"
+			],
+			[
+				"dir",
+				"diretorio"
+			],
+			[
+				"ke",
+				"keywords"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"pags",
+				"pagseguro"
+			],
+			[
+				"ret",
+				"retornoPersonalizado"
+			],
+			[
+				"n",
+				"notificationCode"
+			],
+			[
+				"emNome",
+				"empNomeFantasia"
+			],
+			[
+				"nivel",
+				"nivelNome"
+			],
+			[
+				"banner",
+				"banner_id"
+			],
+			[
+				"loca",
+				"localizacao_id"
+			],
+			[
+				"joomla",
+				"joomla_db"
+			],
+			[
+				"qtd",
+				"quantidade"
+			],
+			[
+				"cupom",
+				"cupom_id"
+			],
+			[
+				"pedi",
+				"pedidos"
+			],
+			[
+				"ped",
+				"pedidos"
+			],
+			[
+				"preg",
+				"preg_replace"
+			],
+			[
+				"titul",
+				"titulo_bloco"
+			],
+			[
+				"get_b",
+				"get_blocos"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"query",
+				"query2"
+			],
+			[
+				"inser",
+				"insertAfter"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"se",
+				"segundos_diferenca"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/flavio/www/megasenha/static/js/utility.js",
+			"settings":
+			{
+				"buffer_size": 14186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/flavio/www/megasenha/application/views/sucesso.php",
+			"settings":
+			{
+				"buffer_size": 1035,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/flavio/www/megasenha/application/controllers/jogo.php",
+			"settings":
+			{
+				"buffer_size": 17041,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/flavio/www/megasenha/application/views/mostra_palavra.php",
+			"settings":
+			{
+				"buffer_size": 2150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/flavio/www/megasenha/application/views/header.php",
+			"settings":
+			{
+				"buffer_size": 2752,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/flavio/www/megasenha/application/controllers/jogadores.php",
+			"settings":
+			{
+				"buffer_size": 7938,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/flavio/www/megasenha/static/css/style.css",
+			"settings":
+			{
+				"buffer_size": 15508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/flavio/www/megasenha/application/views/inicio_jogo.php",
+			"settings":
+			{
+				"buffer_size": 1069,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Tasks: New document"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/flavio/www/gama4x4/app/etc/local.xml",
+		"/home/flavio/www/gama4x4_old/app/etc/local.xml",
+		"/home/flavio/www/gama4x4/app/Mage.php",
+		"/home/flavio/www/gama4x4/gama4x4_novop3_31_03_2014.sql",
+		"/home/flavio/www/megasenha/application/views/ranking.php",
+		"/home/flavio/www/bodyclick/wp-content/themes/bodyclick/single.php",
+		"/home/flavio/www/veridiana/loja/views/include/header_usuario.php",
+		"/home/flavio/www/bodyclick/wp-content/themes/bodyclick/header.php",
+		"/home/flavio/www/veridiana/loja/views/produto.php",
+		"/home/flavio/www/veridiana/loja/controllers/produtos.php",
+		"/home/flavio/www/megasenha/application/controllers/jogo.php",
+		"/home/flavio/www/megasenha/application/views/falha.php",
+		"/tmp/fz3temp-1/database.php",
+		"/home/flavio/www/revistapcecia/components/com_assinaturas/models/pagseguro.php",
+		"/home/flavio/www/sabereletronica/retornoPagamento.php",
+		"/home/flavio/www/revistapcecia/components/com_assinaturas/ipn_results_pagsegro.log",
+		"/home/flavio/www/revistapcecia/components/com_assinaturas/controllers/plano.php",
+		"/home/flavio/www/wordpress/wp-config.php",
+		"/home/flavio/www/impressora3d_old/app/design/frontend/base/default/template/onepagecheckout/onepagecheckout.phtml",
+		"/home/flavio/www/impressora3d/app/design/frontend/base/default/template/onepagecheckout/onepagecheckout.phtml",
+		"/tmp/fz3temp-2/onepagecheckout_bkp.phtml",
+		"/tmp/fz3temp-2/onepagecheckout.phtml",
+		"/tmp/fz3temp-1/onepagecheckout.phtml",
+		"/home/flavio/www/bodyclick/wp-content/themes/bodyclick/index.php",
+		"/home/flavio/www/psdc-jundiai/wp-content/themes/psdc/category.php",
+		"/home/flavio/www/andirahbrasil/wp-content/themes/andirah/category.php",
+		"/home/flavio/www/bodyclick/wp-content/themes/bodyclick/functions.php",
+		"/home/flavio/www/bodyclick/wp-config.php",
+		"/home/flavio/www/impressora3d/app/design/frontend/base/default/template/catalog/product/view/type/grouped.phtml",
+		"/home/flavio/Downloads/wordpress/license.txt",
+		"/home/flavio/www/megasenha/static/css/style.css",
+		"/home/flavio/www/impressora3d/app/design/frontend/default/default/template/store/catalog/product/new.phtml",
+		"/home/flavio/www/megasenha/application/views/final_jogo.php",
+		"/home/flavio/www/megasenha/static/js/utility.js",
+		"/home/flavio/www/frizzo/application/views/sistema.php",
+		"/home/flavio/www/veridiana/usuario/views/home.php",
+		"/home/flavio/www/megasenha/application/controllers/admin.php",
+		"/home/flavio/www/impressora3d/app/design/frontend/base/default/template/catalog/product/list/upsell.phtml",
+		"/home/flavio/www/megasenha/application/controllers/jogadores.php",
+		"/home/flavio/www/frizzo/application/views/admin/v_listarAdministradores.php",
+		"/home/flavio/www/frizzo/application/views/admin/v_nav.php",
+		"/home/flavio/www/frizzo/application/views/html_footer.php",
+		"/home/flavio/www/frizzo/application/config/autoload.php",
+		"/home/flavio/www/frizzo/application/controllers/painel.php",
+		"/home/flavio/www/frizzo/application/config/database.php",
+		"/home/flavio/www/frizzo/application/views/admin/v_header.php",
+		"/home/flavio/www/frizzo/application/controllers/admin.php",
+		"/home/flavio/www/frizzo/application/config/config.php",
+		"/home/flavio/www/megasenha/application/config/config.php",
+		"/home/flavio/Downloads/megasenha (7).sql",
+		"/home/flavio/www/vitaraMotel/detalhes.php",
+		"/home/flavio/www/vitaraMotel/index.php",
+		"/home/flavio/www/megasenha/static/js/contador.js",
+		"/home/flavio/www/megasenha/application/views/inicio_jogo.php",
+		"/home/flavio/www/frizzo/application/views/html_header.php",
+		"/home/flavio/www/megasenha/application/views/header.php",
+		"/home/flavio/www/megasenha/application/views/habilitar_cookie.php",
+		"/home/flavio/www/frizzo_old/application/views/mostraSenha.php",
+		"/home/flavio/www/megasenha/application/views/mostra_palavra.php",
+		"/home/flavio/www/frizzo/application/views/index.html",
+		"/tmp/fz3temp-2/ranking.php",
+		"/tmp/fz3temp-2/style.css",
+		"/home/flavio/www/megasenha_v02/static/css/style.css",
+		"/tmp/fz3temp-1/header.php",
+		"/home/flavio/www/impressora3d/app/etc/local.xml",
+		"/home/flavio/www/impressora3d/app/etc/config.xml",
+		"/home/flavio/www/impressora3d/index.php",
+		"/tmp/fz3temp-2/index.php",
+		"/home/flavio/Downloads/inicio.css",
+		"/home/flavio/www/intensecare_normal/contato.php",
+		"/home/flavio/www/intensecare_normal/sobre.php",
+		"/home/flavio/www/intensecare_normal/index.php",
+		"/home/flavio/www/intensecare_normal/armazem.php",
+		"/tmp/fz3temp-2/.htaccess",
+		"/home/flavio/www/megasenha/application/config/autoload.php",
+		"/home/flavio/www/megasenha/application/libraries/base_facebook.php",
+		"/home/flavio/www/veridiana/usuario/config/constants.php",
+		"/home/flavio/www/impressora3d/app/design/frontend/default/robtec/template/checkout/cart/shipping.phtml",
+		"/tmp/fz3temp-1/index.php",
+		"/home/flavio/www/impressora3d/app/design/frontend/default/robtec/template/bundle/catalog/product/price.phtml",
+		"/home/flavio/www/impressora3d/app/design/frontend/default/robtec/template/catalog/product/view.phtml",
+		"/home/flavio/www/impressora3d/app/design/frontend/default/robtec/template/bundle/catalog/product/view/type/bundle/option/radio.phtml",
+		"/home/flavio/www/impressora3d/app/design/frontend/default/default/template/store/catalog/product/list.phtml",
+		"/home/flavio/www/impressora3d/app/design/frontend/default/robtec/template/catalog/product/view/addtocart.phtml",
+		"/home/flavio/www/megasenha/application/views/jogadores.php",
+		"/home/flavio/www/veridiana/usuario/controllers/autentica.php",
+		"/tmp/fz3temp-1/config.php",
+		"/tmp/fz3temp-1/jogo.php",
+		"/home/flavio/www/megasenha/application/config/database.php",
+		"/home/flavio/www/local.xml",
+		"/home/flavio/www/minhalojamagento/public/app/etc/local.xml",
+		"/home/flavio/www/megasenha/application/views/footer.php",
+		"/home/flavio/www/sound/js/ion.sound.js",
+		"/home/flavio/www/frizzo/application/controllers/site.php",
+		"/home/flavio/www/frizzo/application/views/footer.php",
+		"/home/flavio/www/sound/index.html",
+		"/home/flavio/www/fancybox/demo/index.html",
+		"/home/flavio/www/revistapcecia/administrator/components/com_assinaturas/views/assinaturas/tmpl/default.php",
+		"/home/flavio/www/megasenha/application/views/v_editarPaginas.php",
+		"/home/flavio/www/megasenha/application/views/v_listarPaginas.php",
+		"/home/flavio/Downloads/paginas (1).sql",
+		"/home/flavio/Downloads/paginas (2).sql",
+		"/home/flavio/www/megasenha/application/views/sucesso.php",
+		"/tmp/fz3temp-1/auth.log",
+		"/home/flavio/www/impressora3d/errors/report.php",
+		"/home/flavio/www/impressora3d_dogit/app/etc/local.xml",
+		"/tmp/fz3temp-1/index 2.php",
+		"/home/flavio/www/.htaccess",
+		"/tmp/fz3temp-1/.htaccess 2",
+		"/tmp/fz3temp-1/.htaccess",
+		"/home/flavio/www/megasenha/info.php",
+		"/home/flavio/www/megasenha/static/js/som.js",
+		"/home/flavio/www/megasenha/application/views/v_footer.php",
+		"/home/flavio/www/megasenha/application/views/v_header.php",
+		"/home/flavio/www/frizzo/application/views/v_painel.php",
+		"/home/flavio/www/frizzo/application/views/v_footer.php",
+		"/home/flavio/www/frizzo/application/views/mostraSenha.php",
+		"/home/flavio/www/frizzo/application/views/header.php",
+		"/home/flavio/Downloads/ion.sound-1.3.0/js/ion-sound/ion.sound.js",
+		"/home/flavio/www/frizzo/application/views/v_listarJogadores.php",
+		"/home/flavio/www/revistapcecia/components/com_assinaturas/views/js/assinaturas.js",
+		"/home/flavio/www/megasenha/application/models/admin_model.php",
+		"/home/flavio/www/megasenha/static/css/jquery.fancybox.css",
+		"/home/flavio/www/veridiana/loja/css/jquery.jqzoom.css",
+		"/home/flavio/www/jquery.jqzoom.css",
+		"/home/flavio/Downloads/paginas.sql",
+		"/home/flavio/www/frizzo/application/views/inicio_jogo.php",
+		"/home/flavio/www/frizzo/application/views/v_header.php"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"var/www/pcecompanhia",
+			"var/www/ckeditor/com_ckeditor",
+			"var/www/pccia",
+			"var/www/saber_eletronica",
+			"com_ckeditor_3.0,/home/flavio/Downloads/com_ckeditor_3.0",
+			"com_ckeditor_3.0",
+			"/var/www/pcecompanhia/",
+			"/var/www/pcecompanhia/import-data",
+			"/var/www/pcecompanhia",
+			"/var/www/saber_aqui",
+			"/var/www/pcecompanhia",
+			"/var/www/saber_aqui",
+			"/var/www/pcecompanhia",
+			"/var/www/saber_eletronica",
+			"/var/www/pcecompanhia",
+			"/var/www/pcecompanhia/components",
+			"/var/www/pcecompanhia/",
+			"/var/www/pcecompanhia/administrator/components/com_assinaturas",
+			"/var/www/arrekade/application",
+			"/var/www/arrekade",
+			"/var/www/pcecompanhia/",
+			"/var/www/pcecompanhia/administrator",
+			"/var/www/pcecompanhia",
+			"/var/www/arrekade",
+			"/var/www/pcecompanhia",
+			"/var/www/digivoice",
+			"/var/www/js",
+			"/var/www/forpetlovers",
+			"/var/www/pcecompanhia",
+			"/var/www/ferticlin",
+			"/var/www/prepara_cursos",
+			"/home/flavio/www/pcecompanhia",
+			"<open files>,/home/flavio/www/dom_novo/",
+			"<open files>,/home/flavio/www/dom_novo/components/com_phocagallery/",
+			"<open files>,/home/flavio/www/dom_novo/components/com_phocagallery/views/category",
+			"<open files>",
+			"",
+			"/home/flavio/www/forpetlovers/lovers",
+			"/home/flavio/www/forpetlovers",
+			"/home/flavio/www/pcecompanhia/",
+			"/home/flavio/www/pcecompanhia/modules",
+			"/home/flavio/www/pcecompanhia/components/",
+			"/home/flavio/www/pcecompanhia/components/com_assinaturas",
+			"<current file>,/home/flavio/www/pcecompanhia/components/com_assinaturas",
+			"<current file>",
+			"",
+			"home/flavio/www/pcecompanhia/components",
+			"home/flavio/www/pcecompanhia/components/com_assinaturas/views/",
+			"home/flavio/www/pcecompanhia/components/com_assinaturas/views/img",
+			"home/flavio/www/pcecompanhia/components/assinaturas/views/img",
+			"home/flavio/www/pcecompanhia/components/assinaturas/views",
+			"home/flavio/www/pcecompanhia/components/assinaturas",
+			"home/flavio/www/pcecompanhia/administrator/language",
+			"home/flavio/www/pcecompanhia/administrator/",
+			"/home/flavio/www/pcecompanhia/,/home/flavio/www/pcecompanhia/administrator/components/com_assintatura",
+			"/home/flavio/www/pcecompanhia/,/home/flavio/www/pcecompanhia/administrator/components/com_banners",
+			"/home/flavio/www/pcecompanhia/language,/home/flavio/www/pcecompanhia/administrator/language,/home/flavio/www/prepara_cursos/application",
+			"/home/flavio/www/pcecompanhia/language,/home/flavio/www/pcecompanhia/administrator/language",
+			"/home/flavio/www/pcecompanhia/language"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"desligaSom\n",
+			"    \n",
+			"link_zoom",
+			"zoom",
+			"retornaPalavra",
+			"falha",
+			"logger",
+			"ipn",
+			"pagseguro",
+			"atualizacep",
+			"atualiza",
+			"postcode",
+			"cep",
+			"atualizacep",
+			"){\n",
+			"correiocontrolcep",
+			"Multi",
+			"Multi - color y impresión multi - materiales",
+			"77ebe0b4228eb26c0f59ef369a5049bb",
+			"<img src=\"http://staging.impressora3d.com.br/loja/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21pc2Mvc2ltX3ZlcmRlLnBuZyJ9fQ,,/key/77ebe0b4228eb26c0f59ef369a5049bb/\" alt=\"\" data-mce-src=\"http://staging.impressora3d.com.br/loja/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21pc2Mvc2ltX3ZlcmRlLnBuZyJ9fQ,,/key/77ebe0b4228eb26c0f59ef369a5049bb/\">",
+			"16",
+			"16 colores",
+			"<img src=\"http://staging.impressora3d.com.br/loja/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21pc2Mvc2ltX3ZlcmRlLnBuZyJ9fQ,,/key/77ebe0b4228eb26c0f59ef369a5049bb/\" alt=\"\" />",
+			"listar",
+			">>>",
+			"ranking",
+			"product-name",
+			"pts",
+			"COUNT",
+			"ver_ranking_falha",
+			"amigos",
+			"ver_ran",
+			">>",
+			"final_jogo",
+			"body_class",
+			"exit",
+			"ranking_amigos",
+			"ranking",
+			"ranKing",
+			"ranking",
+			"ranKing",
+			"ranKing_amigos",
+			"gravaPontos",
+			"userdata",
+			"set_userdata",
+			"id_user",
+			"userdata",
+			"id_palavra",
+			"id_jogo",
+			"session",
+			"redButton",
+			"ranking",
+			"ranking .text-rank",
+			"barra-audio",
+			"palco",
+			"mostra_ranking",
+			"\\$r",
+			"title",
+			"mage",
+			"mage_",
+			"fancybox",
+			"play",
+			"true",
+			"createSound",
+			"ended",
+			"ver_ranking_falha",
+			"falha",
+			"friends",
+			"ver_ranking",
+			"sucesso",
+			"palco",
+			"falha",
+			"milhao",
+			"sucesso",
+			"mostra_ranking",
+			"iniciar_jogo",
+			"sucesso",
+			"ranking",
+			"last_query",
+			"ranking",
+			"ranking_amigos",
+			"amigos",
+			"mostra_ranking",
+			"final_jogo",
+			"ranking",
+			"inline1",
+			" link_zoom",
+			"getImagemSubProduto",
+			"getImagemSubProdutoJson",
+			"galeria_sub_produto",
+			"jqzoom",
+			"jqzomm",
+			"link_zoom",
+			"Largeimage",
+			"document.body.removeChild",
+			"import",
+			"ranking",
+			"border",
+			"iniciar_jogo",
+			"info-etapas",
+			"ranking",
+			"ranking_amigos",
+			"ranKing",
+			"ranKing_amigos",
+			"iniciar",
+			"ranking",
+			"alert",
+			"sucesso",
+			"falha",
+			"ranKing_amigos",
+			"gravaSessao\n",
+			"falha\n",
+			"');\n",
+			"FALHA",
+			"falha",
+			"iniciar_jogo",
+			"falha",
+			"ranking",
+			"falha",
+			"var_dump",
+			"ranKing_amigos",
+			"segundos_finais",
+			"segundos",
+			"segundos_iniciais",
+			"segundos_finais",
+			"segundos",
+			"js",
+			"ranking"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+			"<img src=\"http://www.impressora3d.com.br/loja/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2NvbXBhcmUvY2FyX3Byb2R1Y3RfYnV5X2J1dHRvbl9vZmZfbWV4LnBuZyJ9fQ,,/key/e5b7de1b25826e7d5fc1f50890b1929d/\" alt=\"\" />",
+			"'",
+			"tipoMensagem",
+			"$",
+			"jQuery",
+			"getFormEnderecos",
+			"",
+			"jQuery",
+			"data_fim,id_assinatura",
+			"",
+			"\"')",
+			"('\"",
+			"\"','\"",
+			"\"\\\",\\\"\"",
+			"\",\"",
+			"",
+			"\"",
+			",\",\",",
+			",',',",
+			",','",
+			",",
+			"abas_model",
+			"'",
+			"cliente",
+			"'",
+			"",
+			"SE_",
+			"MA_",
+			"SE_",
+			"pc",
+			"",
+			"eletro_",
+			"pc_users",
+			"&"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/flavio/www/megasenha/static/js/utility.js",
+					"settings":
+					{
+						"buffer_size": 14186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8215,
+								8215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3243.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/flavio/www/megasenha/application/views/sucesso.php",
+					"settings":
+					{
+						"buffer_size": 1035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/flavio/www/megasenha/application/controllers/jogo.php",
+					"settings":
+					{
+						"buffer_size": 17041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6594,
+								6594
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3009.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/flavio/www/megasenha/application/views/mostra_palavra.php",
+					"settings":
+					{
+						"buffer_size": 2150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/flavio/www/megasenha/application/views/header.php",
+					"settings":
+					{
+						"buffer_size": 2752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2548,
+								2548
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/flavio/www/megasenha/application/controllers/jogadores.php",
+					"settings":
+					{
+						"buffer_size": 7938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2041,
+								2041
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/flavio/www/megasenha/static/css/style.css",
+					"settings":
+					{
+						"buffer_size": 15508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15231,
+								15231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13089.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/flavio/www/megasenha/application/views/inicio_jogo.php",
+					"settings":
+					{
+						"buffer_size": 1069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"te",
+				"/home/flavio/www/pcecompanhia/templates/pc/css/template.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true
+}

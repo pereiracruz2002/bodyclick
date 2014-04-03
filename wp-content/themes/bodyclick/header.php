@@ -37,7 +37,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.min.css" /> 
-  <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/jquery-1.10.2.min.js'></script>
+  <script type='text/javascript' src='<?=bloginfo('template_url');?>/js/jquery-1.10.2.min.js'></script>
   <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js'></script>
   <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/jquery.jqzoom-core.js'></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -53,7 +53,7 @@
       <div class="row" style="margin-top: 10px;">
         <div class="col-md-5" id="logo">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="BodyClick">
-            <img src="" alt="Body Click" class="img-responsive">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo-bclick2--para-web" alt="Body Click" class="img-responsive">
           </a>
         </div>
         <div class="col-md-7"  style="margin-top: 20px;">

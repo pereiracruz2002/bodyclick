@@ -100,8 +100,7 @@ get_header(); ?>
 		</div><!-- #conteudo -->
 <?php get_footer(); ?>
    </div>
-</body>
-<script type="text/javascript">
+   <script type="text/javascript">
 $(document).ready(function(){
    var zoom = { 
               zoomType: 'reverse',
@@ -115,4 +114,6 @@ $(document).ready(function(){
           $('.link_zoom').jqzoom(zoom);  
 });
 </script>
+</body>
+
 </html>
