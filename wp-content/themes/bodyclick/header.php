@@ -52,7 +52,7 @@
    <div class="container">
       <div class="row" style="margin-top: 10px;">
         <div class="col-md-5" id="logo">
-          <a href="index.html" title="BodyClick">
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="BodyClick">
             <img src="" alt="Body Click" class="img-responsive">
           </a>
         </div>
@@ -60,7 +60,7 @@
           
            <form class="navbar-form pull-right hidden-xs" role="search">
                 <div class="form-group">
-                  <input type="text" class="form-control input-lg" placeholder="Digite a palavra...">
+                  <input type="text" class="form-control input-lg col-md-7" placeholder="Digite a palavra...">
                 </div>
                 <button type="submit" class="btn btn-default turquesa">Buscar</button>
             </form>
@@ -80,9 +80,9 @@
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse turquesa">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Inicial</a></li>
+                <li class="active"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Inicial</a></li>
                 <li><a href="http://localhost/bodyclick/?page_id=4">Quem Somos</a></li>
-                <li><a href="#">Como funcionamos</a></li>
+                <li><a href="<?php echo get_bloginfo('url');?>?page_id=4">Como funcionamos</a></li>
                 <li><a href="#">Artigos</a></li>
                 <li><a href="#">Anuncie</a></li>
                 <li><a href="#">Fale Conosco</a></li>

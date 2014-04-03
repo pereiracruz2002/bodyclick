@@ -43,7 +43,6 @@ get_header(); ?>
             <div class="btn-group hidden-xs">
               <button class="btn btn-info"><img src="img/twitter2.png" class="flutuar-ico"> Publicar no Twitter</button>
               <button class="btn btn-info"><img src="img/facebook.png" class="flutuar-ico"> Publicar no Facebook</button>
-              <button class="btn btn-info">Leia o Post Completo &rarr;</button>
             </div>
             <div class="btn-group visible-xs">
               <button class="btn btn-info"><img src="img/twitter2.png" class="flutuar-ico">Twitter</button>
@@ -79,16 +78,6 @@ get_header(); ?>
       </div>
 
 
-     <div id="conteudo">
-<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-        <div id="post-<?php the_ID(); ?>" class="central">
-          <h1><?php the_title(); ?></h1>
-          <?php the_content(); ?>
- 
-<?php endwhile; ?>
-        </div><!-- #central -->
-        <?php get_sidebar(); ?>
-    </div><!-- #conteudo -->
 <?php include_once("menu.php"); ?>
 <?php get_footer(); ?>
    </div>

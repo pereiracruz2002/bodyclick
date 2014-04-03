@@ -1,0 +1,328 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"id_jogo"
+			],
+			[
+				"j",
+				"jQuery"
+			],
+			[
+				"adm",
+				"admLogin"
+			],
+			[
+				"array",
+				"array_senha"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/frizzo/application/controllers/sistema.php",
+		"/var/www/frizzo/application/views/sistema.php",
+		"/var/www/frizzo_v02/application/controllers/site.php",
+		"/var/www/frizzo/css/style.css",
+		"/var/www/frizzo/application/views/html_header.php",
+		"/var/www/bodyclick/bodyclick.sql",
+		"/home/flavio/Downloads/frizzo-master/application/views/html_header.php",
+		"/var/www/frizzo_v02/application/views/mostraSenha.php",
+		"/var/www/arquivos_bootstrap/modulo3/index.html",
+		"/var/www/frizzo/application/views/html_footer.php",
+		"/var/www/arquivos_bootstrap/modulo3/inscricao1.html",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/index.php",
+		"/var/www/frizzo/application/config/autoload.php",
+		"/var/www/frizzo_v02/application/config/autoload.php",
+		"/var/www/frizzo_v02/application/views/admin/index.php",
+		"/var/www/arquivos_bootstrap/modulo1/index.html",
+		"/var/www/frizzo_old/application/views/html_header.php",
+		"/var/www/frizzo_old/application/views/site.php",
+		"/var/www/frizzo_old/application/views/v_login.php",
+		"/var/www/frizzo_old/application/views/mostraSenha.php",
+		"/var/www/frizzo/application/config/routes.php",
+		"/var/www/soline/wp-content/themes/soline/index.php",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/style.css",
+		"/var/www/bodyclick_html/css/template.css",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/category.php",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/single.php",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/header.php",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/functions.php",
+		"/var/www/psdc-jundiai/wp-content/themes/psdc/header.php",
+		"/var/www/bodyclick/wp-content/themes/soline/index.php",
+		"/var/www/psdc-jundiai/wp-content/themes/psdc/index.php",
+		"/var/www/soline/wp-content/themes/soline/single.php",
+		"/var/www/frizzo/application/controllers/welcome.php",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/sidebar.php",
+		"/var/www/bodyclick_html/index.html",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/css/template.css",
+		"/var/www/soline/wp-content/themes/soline/functions.php",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/footer.php",
+		"/var/www/bodyclick_html/post.html",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/page.php",
+		"/var/www/bodyclick/wp-content/themes/bodyclick/menu-votadas.php",
+		"/var/www/bodyclick/single.php",
+		"/var/www/psdc-jundiai/wp-content/themes/psdc/sidebar.php",
+		"/home/flavio/bodyclick.sql",
+		"/home/flavio/Downloads/bodyclick.sql",
+		"/var/www/soline/wp-content/themes/soline/menu.php",
+		"/var/www/soline/wp-content/themes/soline/comments.php",
+		"/var/www/bodyclick/wp-content/themes/soline/header.php",
+		"/var/www/bodyclick/wp-content/themes/soline/footer.php",
+		"/var/www/bodyclick/wp-content/themes/soline/css/style.css",
+		"/var/www/bodyclick/wp-config.php",
+		"/var/www/bodyclick/index.html",
+		"/var/www/bodyclick/post.html",
+		"/var/www/bodyclick/css/template.css",
+		"/var/www/arquivos_bootstrap/modulo2/index.html",
+		"/var/www/soline/soline.sql",
+		"/var/www/megasenha/static/js/utility.js",
+		"/var/www/megasenha/application/views/inicio_jogo.php",
+		"/var/www/megasenha/application/views/mostra_palavra.php",
+		"/var/www/megasenha/application/controllers/jogadores.php",
+		"/var/www/megasenha/application/controllers/jogo.php",
+		"/var/www/frizzo/application/controllers/admin.php",
+		"/var/www/megasenha/application/views/admin/header.php",
+		"/var/www/megasenha/application/controllers/auth.php",
+		"/var/www/frizzo/application/views/admin/header.php",
+		"/var/www/frizzo/application/controllers/auth.php",
+		"/var/www/megasenha/application/views/sucesso.php",
+		"/var/www/megasenha/application/views/falha.php",
+		"/var/www/megasenha/application/controllers/admin.php",
+		"/var/www/megasenha_new/application/controllers/jogadores.php",
+		"/var/www/megasenha_new/application/views/mostra_palavra.php",
+		"/var/www/megasenha_new/application/controllers/jogo.php",
+		"/var/www/megasenha_new/application/views/inicio_jogo.php",
+		"/var/www/megasenha_new/static/js/utility.js",
+		"/var/www/megasenha/application/views/header.php",
+		"/var/www/megasenha/.htaccess",
+		"/var/www/megasenha/application/views/ranking.php",
+		"/var/www/megasenha/static/css/style.css",
+		"/var/www/novogama4x4.local.com/app/design/frontend/base/default/template/checkout/onepage/agreements.phtml",
+		"/home/flavio/Downloads/validacao/instrucoes",
+		"/var/www/novogama4x4.local.com/app/design/adminhtml/default/default/template/sales/order/view/info.phtml",
+		"/var/www/gama4x4.local.com/app/design/adminhtml/default/default/template/cielo/info.phtml",
+		"/home/flavio/desenvolvimento/Vagrantfile",
+		"/var/www/novogama4x4.local.com/app/design/frontend/base/default/template/checkout/onepage/review/button.phtml",
+		"/home/flavio/desenvolvimento/finalmente.php",
+		"/home/flavio/Downloads/validacao/button.phtml",
+		"/home/flavio/Downloads/validacao/agreements.phtml",
+		"/var/www/gama4x4.local.com/app/design/frontend/base/default/template/checkout/onepage/review.phtml",
+		"/var/www/gama4x4.local.com/app/design/frontend/default/modern/template/checkout/onepage/review.phtml",
+		"/home/flavio/Downloads/mod_revendedor/agreements.phtml",
+		"/var/www/novogama4x4.local.com/js/prototype/validation.js",
+		"/var/www/novogama4x4.local.com/app/design/frontend/base/default/template/checkout/onepage/review.phtml",
+		"/var/www/novogama4x4.local.com/app/design/frontend/base/default/template/page/html/head.phtml",
+		"/var/www/novogama4x4.local.com/app/design/frontend/base/default/layout/page.xml",
+		"/var/www/novogama4x4.local.com/app/design/adminhtml/default/default/template/sales/order/view/tab/info.phtml",
+		"/var/www/novogama4x4.local.com/var/report/521661374",
+		"/var/www/novogama4x4.local.com/app/code/core/Mage/Payment/Model/Info.php",
+		"/var/www/novogama4x4.local.com/app/code/core/Mage/Payment/Model/Config.php",
+		"/var/www/novogama4x4.local.com/app/code/core/Mage/Authorizenet/Helper/Data.php",
+		"/var/www/gama4x4.local.com/app/design/frontend/base/default/template/checkout/onepage/agreements.phtml",
+		"/var/www/gama4x4.local.com/app/design/frontend/default/modern/template/checkout/onepage/agreements.phtml",
+		"/var/www/gama4x4.local.com/app/code/core/Mage/Payment/Model/Info.php",
+		"/var/www/gama4x4.local.com/app/code/community/Cushy/Boleto/Model/Bb.php",
+		"/var/www/frizzo/application/config/config.php",
+		"/var/www/frizzo/index.php",
+		"/var/www/novogama4x4.local.com/app/etc/local.xml",
+		"/var/www/novogama4x4.local.com/app/code/community/Cushy/Boleto/Helper/Data.php",
+		"/var/www/gama4x4/app/etc/local.xml",
+		"/var/www/magento.local.com/novogama4x4.sql",
+		"/var/www/magento.local.com/log/error.log",
+		"/var/www/site/index.php",
+		"/home/flavio/projetos/Vagrantfile",
+		"/var/www/frizzo/.htaccess",
+		"/var/www/info.php",
+		"/var/www/frizzo/application/views/mostraSenha.php",
+		"/var/www/vaniaSalgados/vaniaSalgados.sql",
+		"/var/www/vaniaSalgados/wp-links-opml.php",
+		"/var/www/vaniaSalgados/.htaccess",
+		"/var/www/vaniaSalgados/wp-config.php",
+		"/var/www/vaniaSalgados/wp-content/themes/restaurant/footer.php",
+		"/var/www/sophisti/application/controllers/site.php",
+		"/var/www/frizzo/application/controllers/banner.php",
+		"/var/www/frizzo/application/controllers/site.php",
+		"/var/www/vaniaSalgados/wp-content/themes/restaurant/lib_frame/frame_functions.php",
+		"/home/flavio/vagrant-lamp/Vagrantfile",
+		"/home/flavio/vagrant-lamp-1-master/Vagrantfile",
+		"/var/www/vaniaSalgados/wp-content/themes/restaurant/index.php",
+		"/var/www/vaniaSalgados/wp-content/themes/restaurant/sidebar.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http://localhost/bodyclick",
+			"fone",
+			"http://localhost/vaniaSalgados",
+			"uploadImagem",
+			"datatable",
+			"parceiro",
+			"msg",
+			"config.vm.boot_timeout",
+			"navbar",
+			"iconbar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"http://ec2-54-207-54-234.sa-east-1.compute.amazonaws.com/bodyclick/",
+			"http://ec2-54-207-54-234.sa-east-1.compute.amazonaws.com/vaniaSalgados/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "bodyclick.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
