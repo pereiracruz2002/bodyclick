@@ -27,6 +27,7 @@
               </div>
             </li>
           </ul>-->
+          <ul class="media-list">
 <?php
   $query_popular = new WP_Query(array(
       'v_sortby' => 'views', // Organiza os posts por visitas
@@ -37,5 +38,11 @@
   
   if($query_popular->have_posts()):while($query_popular->have_posts()):$query_popular->the_post();
 ?>
-  <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+  <li class="media">
+  <a class="pull-left" href="<?php the_permalink(); ?>"><?php the_post_thumbnail(array(102, 149), array('class' => 'media-object img-rounded')); ?></a>
+   <div class="media-body">
+      <h4 class="media-heading"><?php the_title(); ?></h4>
+        <p><?php echo abreviaString(get_the_excerpt(),50); ?></p>
+    </div>
 <?php endwhile; endif; wp_reset_query();  ?>
+ </ul>

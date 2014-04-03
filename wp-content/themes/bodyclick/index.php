@@ -97,22 +97,31 @@ get_header(); ?>
 
              <div class="row">
             <div class="col-md-12">
-			  <div class="col-md-4">
-				<div class="panel panel-danger">
-  			      <div class="panel-heading turquesa"><h4>Produto</h4></div>
-			      <div class="panel-body">
-			        <div class="row">
-			         <div class="col-md-6">
-			    	   <img src="<?php echo get_template_directory_uri(); ?>/img/whey.jpg" class="img-responsive">
-			         </div>
-			         <div class="col-md-6">
-				    	 <p><span class="label label-info">Novo</span></p>
-	                      <p>Preço</p>
-	                </div>
-	               </div>
-			     </div>
+            <?php
+            $args = array('category' => 5,
+                    'orderby' => 'post_date',
+                    'order'=> 'DESC',
+                    'numberposts'     => 3);
+            $myposts = get_posts( $args );
+            foreach( $myposts as $post ) :  setup_postdata($post);
+            ?>
+              <div class="col-md-4">
+                <div class="panel panel-danger">
+                  <div class="panel-heading turquesa"><h4 class="text-center"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h4></div>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <a href="<?php the_permalink();?>"><?php the_post_thumbnail('thumbnail', array('class' => 'media-object img-rounded')); ?></a>
+                    </div>
+                    <div class="col-md-6">
+                      <p><span class="label label-info">Novo</span></p>
+                      <p>Preço</p>
+                    </div>
+                  </div>
                 </div>
-			  </div>
+              </div>
+            <?php endforeach;?>
+            </div>
 			  <div class="col-md-4">
 				<div class="panel panel-danger">
   			      <div class="panel-heading turquesa"><h4>Produto</h4></div>

@@ -14,7 +14,7 @@
 get_header(); ?>
 <div class="row">
         <div class="col-md-3 hidden-phone">
-          <h3>Mais Votadas</h3>
+          <h3>Mais Vistos</h3>
            <?php include_once("menu-votadas.php"); ?>
         </div>
         <div class="col-md-9">
@@ -28,10 +28,7 @@ get_header(); ?>
             <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <div id="post-<?php the_ID(); ?>" class="central">
 					<h1><?php the_title(); ?></h1>
-            <div class="info-post">
-              <span class="data-post">Data do Post: 12 de abril de 2013</span>
-              - <span class="categoria-post">Categoria: <a href="#">Tecnologia</a></span>
-            </div>
+            
             <br>
 					<?php the_content(); ?>
  
@@ -43,7 +40,6 @@ get_header(); ?>
             <div class="btn-group hidden-xs">
               <button class="btn btn-info"><img src="img/twitter2.png" class="flutuar-ico"> Publicar no Twitter</button>
               <button class="btn btn-info"><img src="img/facebook.png" class="flutuar-ico"> Publicar no Facebook</button>
-              <button class="btn btn-info">Leia o Post Completo &rarr;</button>
             </div>
             <div class="btn-group visible-xs">
               <button class="btn btn-info"><img src="img/twitter2.png" class="flutuar-ico">Twitter</button>
@@ -78,19 +74,6 @@ get_header(); ?>
         </div>
       </div>
 
-
-     <div id="conteudo">
-<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-        <div id="post-<?php the_ID(); ?>" class="central">
-					<h1><?php the_title(); ?></h1>
-					<?php the_content(); ?>
- 
-<?php endwhile; ?>
-			  </div><!-- #central -->
-        <?php get_sidebar(); ?>
-		</div><!-- #conteudo -->
-<?php include_once("menu.php"); ?>
-<?php get_footer(); ?>
    </div>
 </body>
 </html>
