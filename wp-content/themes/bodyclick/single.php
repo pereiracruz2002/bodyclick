@@ -34,8 +34,11 @@ get_header(); ?>
             </div>
             <div class="row">
               <div class="col-md-6">
-                <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
-                <img src="<?php echo $image[0]; ?>" class="link_zoom">
+                  <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
+                  <?php $image_gd = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'big' ); ?>
+                 <a href="<?php echo $image_gd[0]; ?>" class="jqzoom" rel='gal1'  title="triumph" >
+                <img src="<?php echo $image[0]; ?>" class="link_zoom" />
+                </a>
               </div>
               <div class="col-md-6">
                 <?php  if (has_excerpt() ) { ?>
