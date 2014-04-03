@@ -35,7 +35,7 @@ get_header(); ?>
             <div class="row">
               <div class="col-md-6">
                 <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
-                <img src="<?php echo $image[0]; ?>">
+                <img src="<?php echo $image[0]; ?>" class="link_zoom">
               </div>
               <div class="col-md-6">
                 <?php  if (has_excerpt() ) { ?>
@@ -101,4 +101,18 @@ get_header(); ?>
 <?php get_footer(); ?>
    </div>
 </body>
+<script type="text/javascript">
+$(document).ready(function(){
+   var zoom = { 
+              zoomType: 'reverse',
+              alwaysOn:false,  
+              zoomWidth: 300,  
+              zoomHeight: 250,  
+              showEffect : 'fadein',  
+              hideEffect: 'fadeout'   
+          };  
+
+          $('.link_zoom').jqzoom(zoom);  
+});
+</script>
 </html>
