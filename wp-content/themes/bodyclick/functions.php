@@ -16,6 +16,19 @@ function custom_search_where($where) {
 }
 add_filter('posts_where', 'custom_search_where');*/
 
+
+if (function_exists('register_sidebar')) {
+     register_sidebar(array(
+      'name' => 'Sidebar Widgets',
+      'id'   => 'sidebar-widgets',
+      'description'   => 'Widget Area',
+      'before_widget' => '<div id="one" class="two">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h2>',
+      'after_title'   => '</h2>'
+     ));
+}
+
 function abreviaString($texto, $limite=100, $tres_p = '...'){
   $totalCaracteres = 0;
   $vetorPalavras = explode(" ",$texto);

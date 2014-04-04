@@ -57,12 +57,14 @@
         </div>
         <div class="col-md-7"  style="margin-top: 20px;">
           
-           <form class="navbar-form pull-right hidden-xs" role="search">
+           <!--<form class="navbar-form pull-right hidden-xs" role="search">
                 <div class="form-group">
                   <input type="text" class="form-control input-lg col-md-7" placeholder="Digite a palavra...">
                 </div>
                 <button type="submit" class="btn btn-default turquesa">Buscar</button>
-            </form>
+            </form>-->
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar Widgets') ) : ?>
+      <?php endif; ?>
       </div>
     </div>
 

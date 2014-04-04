@@ -177,12 +177,12 @@ function get_search_form( $echo = true ) {
 				<input type="submit" class="search-submit" value="'. esc_attr_x( 'Search', 'submit button' ) .'" />
 			</form>';
 		} else {
-			$form = '<form role="search" method="get" id="searchform" class="searchform" action="' . esc_url( home_url( '/' ) ) . '">
-				<div>
-					<label class="screen-reader-text" for="s">' . _x( 'Search for:', 'label' ) . '</label>
-					<input type="text" value="' . get_search_query() . '" name="s" id="s" />
-					<input type="submit" id="searchsubmit" value="'. esc_attr_x( 'Search', 'submit button' ) .'" />
+			$form = '<form role="search" method="get" id="searchform" class="navbar-form pull-right hidden-xs searchform" role="search"  action="' . esc_url( home_url( '/' ) ) . '">
+				<div class="form-group">
+					<input type="text" class="form-control input-lg col-md-7" value="' . get_search_query() . '" name="s" id="s" placeholder="Digite a palavra..." />
 				</div>
+					<input type="submit" class="btn btn-default turquesa" id="searchsubmit" value="'. esc_attr_x( 'Search', 'submit button' ) .'" />
+				
 			</form>';
 		}
 	}
