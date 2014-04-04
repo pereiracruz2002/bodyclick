@@ -32,15 +32,15 @@ get_header(); ?>
               <span class="data-post">Data da Publicação: <?php the_time('j \d\e F \d\e Y') ?></span>
               - <span class="categoria-post">Categoria: <a href="#"><?php $categoria = get_the_category( $id ); echo $categoria[0]->name; ?></a></span>
             </div>
-            <div class="row">
-              <div class="col-md-6">
+            <div class="row" style="margin-top: 20px;">
+              <div class="col-md-5">
                   <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
                   <?php $image_gd = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'big' ); ?>
-                 <a href="<?php echo $image_gd[0]; ?>" class="jqzoom" rel='gal1'  title="triumph" >
-                <img src="<?php echo $image[0]; ?>" class="link_zoom" />
+                 <a href="<?php echo $image_gd[0]; ?>" class="link_zoom" title="<?php the_title(); ?>" >
+                <img src="<?php echo $image[0]; ?>"  title="<?php the_title(); ?>"/>
                 </a>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-7">
                 <?php  if (has_excerpt() ) { ?>
                 <?php the_excerpt(); ?>
                 <?php }?>
@@ -48,7 +48,7 @@ get_header(); ?>
                 <?php echo get_post_custom_values("tamanho")[0];?>
               </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 20px;">
               <div class="col-md-12">
 					       <?php the_content(); ?>
               </div>
@@ -62,7 +62,6 @@ get_header(); ?>
             <div class="btn-group hidden-xs">
               <button class="btn btn-info"><img src="img/twitter2.png" class="flutuar-ico"> Publicar no Twitter</button>
               <button class="btn btn-info"><img src="img/facebook.png" class="flutuar-ico"> Publicar no Facebook</button>
-              <button class="btn btn-info">Leia o Post Completo &rarr;</button>
             </div>
             <div class="btn-group visible-xs">
               <button class="btn btn-info"><img src="img/twitter2.png" class="flutuar-ico">Twitter</button>
@@ -106,7 +105,7 @@ get_header(); ?>
    <script type="text/javascript">
 $(document).ready(function(){
    var zoom = { 
-              zoomType: 'reverse',
+              zoomType: 'standard',
               alwaysOn:false,  
               zoomWidth: 300,  
               zoomHeight: 250,  

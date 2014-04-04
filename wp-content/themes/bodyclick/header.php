@@ -49,7 +49,6 @@
 
   <body <?php body_class(); ?>>
    <div class="container">
-    <?php echo get_template_directory_uri(); ?>
       <div class="row" style="margin-top: 10px;">
         <div class="col-md-5" id="logo">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="BodyClick">
