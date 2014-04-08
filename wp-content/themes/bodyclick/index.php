@@ -74,26 +74,42 @@ get_header(); ?>
         </div>
         <div class="col-md-9">
           <div class="row">
+            <?php
+            global $wp_query;
+          $args = array_merge( $wp_query->query_vars, array( 'post_type' => 'artigos' ) );
+          query_posts( $args );
+          while ( have_posts() ) : the_post();?>
             <div class="col-md-12">
               <div class="panel panel-danger">
-  			    <div class="panel-heading turquesa"><h4>10 dicas para você crescer mais</h4></div>
-			      <div class="panel-body">
-			    	<img src="<?php echo get_template_directory_uri(); ?>/img/ginastica.png" class="flutuar-img">
-			    	<p class="col-md-10">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="post.html">Mais Detalhes &raquo;</a></p>
-			     </div>
-                </div>
+  			         <div class="panel-heading turquesa"><h4><?php echo the_title();?></h4></div>
+			             <div class="panel-body">
+                   <?php if ( has_post_thumbnail() ):
+                    the_post_thumbnail();
+                    endif;
+                    ?>
+			    	          <!--<img src="<?php echo get_template_directory_uri(); ?>/img/ginastica.png" class="flutuar-img">-->
+			    	          <p class="col-md-10"><?php echo the_excerpt();?></p>
+                      <p><a class="btn" href="<?php echo the_permalink();?>">Mais Detalhes &raquo;</a></p>
+			              </div>
+              </div>
             </div>
+            <?php
+            endwhile;
+
+            // Reset Query
+            wp_reset_query();
+            ?>
+            <!--
             <div class="col-md-12">
               <div class="panel panel-danger">
-  			    <div class="panel-heading turquesa"><h4>10 dicas para você crescer mais</h4></div>
-			      <div class="panel-body">
-			    	<img src="<?php echo get_template_directory_uri(); ?>/img/ginastica.png" class="flutuar-img">
-			    	<p class="col-md-10">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="post.html">Mais Detalhes &raquo;</a></p>
-			     </div>
-                </div>
-            </div>
+  			        <div class="panel-heading turquesa"><h4>10 dicas para você crescer mais</h4></div>
+			          <div class="panel-body">
+			    	      <img src="<?php echo get_template_directory_uri(); ?>/img/ginastica.png" class="flutuar-img">
+			    	      <p class="col-md-10">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                  <p><a class="btn" href="post.html">Mais Detalhes &raquo;</a></p>
+			         </div>
+              </div>
+            </div>-->
 
              <div class="row">
             <div class="col-md-12">

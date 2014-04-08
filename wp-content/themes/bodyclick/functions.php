@@ -16,6 +16,9 @@ function custom_search_where($where) {
 }
 add_filter('posts_where', 'custom_search_where');*/
 
+add_theme_support('post-thumbnails', array('post','artigos'));
+
+//add_theme_support('artigos-thumbnails', array('artigos'));
 
 if (function_exists('register_sidebar')) {
      register_sidebar(array(
@@ -27,6 +30,20 @@ if (function_exists('register_sidebar')) {
       'before_title'  => '<h2>',
       'after_title'   => '</h2>'
      ));
+}
+
+add_action( 'init', 'create_post_type_artigos' );
+function create_post_type_artigos() {
+    register_post_type( 'artigos',
+        array(
+            'labels' => array(
+                'name' => __( 'Artigos' ),
+                'singular_name' => __( 'Artigos' )
+            ),
+            'public' => true,
+            'supports' => array('title','editor','author','thumbnail','excerpt','comments')
+        )
+    );
 }
 
 function abreviaString($texto, $limite=100, $tres_p = '...'){
