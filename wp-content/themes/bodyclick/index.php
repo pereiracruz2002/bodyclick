@@ -18,15 +18,42 @@ get_header(); ?>
         <div class="col-md-8">
         <div id="myCarousel" class="carousel slide">
           <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+          <?php
+            global $wp_query;
+            $args = array_merge( $wp_query->query_vars, array( 'post_type' => 'banners' ) );
+            query_posts( $args );
+            $i = 0;
+          ?>
+          <?php while ( have_posts() ) : the_post();?>
+            <li data-target="#myCarousel" data-slide-to="<?php echo $i;?>"></li>
+          <?php
+            $i++;
+            endwhile;
+            // Reset Query
+            wp_reset_query();
+            ?>
+            <!--<li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>-->
           </ol>
           <!-- Carousel items -->
           <div class="carousel-inner">
-            <div class="active item"><img class="media-object img-rounded img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/slide.jpg"></div>
-            <div class="item"><img class="media-object img-rounded img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/slide.jpg"></div>
-            <div class="item"><img class="media-object img-rounded img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/slide.jpg" ></div>
+          <?php
+            global $wp_query;
+            $args = array_merge( $wp_query->query_vars, array( 'post_type' => 'banners' ) );
+            query_posts( $args );
+            $i = 0;
+          ?>
+          <?php while ( have_posts() ) : the_post();?>
+          <?php $banner = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'big' ); ?>
+            <div class="<?php if($i==0){ echo "active";}?> item"><a href="<?php echo the_permalink();?>"><img class="media-object img-rounded img-responsive" src="<?php echo $banner[0];?>"></a></div>
+            <!--<div class="item"><img class="media-object img-rounded img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/slide.jpg"></div>
+            <div class="item"><img class="media-object img-rounded img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/slide.jpg" ></div>-->
+            <?php
+            $i++;
+            endwhile;
+            // Reset Query
+            wp_reset_query();
+            ?>
           </div>
           <!-- Carousel navegação -->
           <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -83,12 +110,12 @@ get_header(); ?>
               <div class="panel panel-danger">
   			         <div class="panel-heading turquesa"><h4><?php echo the_title();?></h4></div>
 			             <div class="panel-body">
-                   <?php if ( has_post_thumbnail() ):
-                    the_post_thumbnail();
-                    endif;
-                    ?>
-			    	          <!--<img src="<?php echo get_template_directory_uri(); ?>/img/ginastica.png" class="flutuar-img">-->
-			    	          <p class="col-md-10"><?php echo the_excerpt();?></p>
+                   <?php //if ( has_post_thumbnail() ):
+                    //the_post_thumbnail();
+                    //endif;
+                   $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
+			    	          <img src="<?php echo $image[0];?>" class="flutuar-img">
+			    	          <?php echo the_excerpt();?>
                       <p><a class="btn" href="<?php echo the_permalink();?>">Mais Detalhes &raquo;</a></p>
 			              </div>
               </div>

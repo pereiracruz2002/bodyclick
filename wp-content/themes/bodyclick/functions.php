@@ -16,7 +16,8 @@ function custom_search_where($where) {
 }
 add_filter('posts_where', 'custom_search_where');*/
 
-add_theme_support('post-thumbnails', array('post','artigos'));
+add_theme_support('post-thumbnails', array('post','artigos','banners'));
+register_taxonomy_for_object_type( 'tags', 'artigos' );
 
 //add_theme_support('artigos-thumbnails', array('artigos'));
 
@@ -42,6 +43,33 @@ function create_post_type_artigos() {
             ),
             'public' => true,
             'supports' => array('title','editor','author','thumbnail','excerpt','comments')
+        )
+    );
+}
+
+add_action( 'init', 'create_taxonomy_artigos_category' );
+function create_taxonomy_artigos_category() {
+    register_taxonomy( 'artigos_category', array( 'artigos' ), array(
+        'hierarchical' => true,
+        'label' => __( 'Categoria dos Artigos' ),
+        'show_ui' => true,
+        'show_in_tag_cloud' => true,
+        'query_var' => true,
+        'rewrite' => true,
+        )
+    );
+}
+
+add_action( 'init', 'create_post_type_banners' );
+function create_post_type_banners() {
+    register_post_type( 'banners',
+        array(
+            'labels' => array(
+                'name' => __( 'Banners' ),
+                'singular_name' => __( 'Banner' )
+            ),
+            'public' => true,
+            'supports' => array('title','editor','thumbnail')
         )
     );
 }
