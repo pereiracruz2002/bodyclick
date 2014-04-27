@@ -18,31 +18,28 @@ get_header();
           <h3>Mais Votadas</h3>
            <?php include_once("menu-votadas.php"); ?>
         </div>
-        <div class="col-md-9">
-           <div class="row">
-            <div class="col-md-12">
-			  <div class="col-md-4">
-				<div class="panel panel-danger">
-  			      <div class="panel-heading turquesa"><h4 class="text-center"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h4></div>
-			      <div class="panel-body">
-			        <div class="row">
-			         <div class="col-md-6">
-			    	   <a href="<?php the_permalink();?>"><?php the_post_thumbnail('thumbnail', array('class' => 'media-object img-rounded')); ?></a>
-			         </div>
-			         <div class="col-md-6">
-				    	 <p><span class="label label-info">Novo</span></p>
-	                      <p>Preço</p>
-	                </div>
-	               </div>
-			     </div>
-                </div>
-			  </div>
-			 </div>
-			</div>
-            
-            
-            
-            
+	<div class="col-md-9">
+		<div class="row">
+			<div class="col-md-12">
+			<?php if ( have_posts() ) : ?>
+				<?php while ( have_posts() ) : the_post();?>
+				<div class="col-md-12">
+					<div class="panel panel-danger">
+						<div class="panel-heading turquesa"><h4><?php echo the_title();?></h4></div>
+							<div class="panel-body">
+                       			<a href="<?php the_permalink();?>"><?php the_post_thumbnail('thumbnail', array('class' => 'flutuar-img')); ?></a>
+			    	        <?php echo the_excerpt();?>
+                      			<p><a class="btn" href="<?php echo the_permalink();?>">Mais Detalhes &raquo;</a></p>
+			              	</div>
+              			</div>
+            		</div>
+				<?php endwhile;?>
+			<?php else: ?>
+				<div class="alert alert-danger"><strong>Nenhum registro encontrado</strong></div>
+			<?php endif;?>
+			</div>	
+		</div>
+	</div>
             </div>
           </div>
         </div>

@@ -188,12 +188,7 @@ get_header(); ?>
               <div class="panel panel-danger">
   			         <div class="panel-heading turquesa"><h4><?php echo the_title();?></h4></div>
 			             <div class="panel-body">
-                   <?php //if ( has_post_thumbnail() ):
-                    //the_post_thumbnail();
-                    //endif;
-                   $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
-			    	          <img src="<?php echo $image[0];?>" class="flutuar-img">
-                       <a href="<?php the_permalink();?>"><?php the_post_thumbnail('thumbnail', array('class' => 'flutuar-img')); ?></a>
+                      <a href="<?php the_permalink();?>"><?php the_post_thumbnail('thumbnail', array('class' => 'flutuar-img')); ?></a>
 			    	          <?php echo the_excerpt();?>
                       <p><a class="btn" href="<?php echo the_permalink();?>">Mais Detalhes &raquo;</a></p>
 			              </div>

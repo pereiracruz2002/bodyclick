@@ -92,11 +92,11 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse turquesa">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Inicial</a></li>
-                <li><a href="http://localhost/bodyclick/?page_id=4">Quem Somos</a></li>
-                <li><a href="<?php echo get_bloginfo('url');?>?page_id=4">Como funcionamos</a></li>
-                <li><a href="#">Artigos</a></li>
-                <li><a href="#">Anuncie</a></li>
-                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="<?php echo get_bloginfo('url');?>/quem-somos">Quem Somos</a></li>
+                <li><a href="<?php echo get_bloginfo('url');?>/como-funcionamos">Como funcionamos</a></li>
+                <li><a href="<?php echo get_bloginfo('url');?>/artigos">Artigos</a></li>
+                <li><a href="<?php echo get_bloginfo('url');?>/anuncie">Anuncie</a></li>
+                <li><a href="<?php echo get_bloginfo('url');?>/fale-conosco">Fale Conosco</a></li>
               </ul>
              
             </div><!--final navbar-collapse -->
