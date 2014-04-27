@@ -12,6 +12,10 @@ h2{
 	background-color: #E3C5C4;
 }
 
+.cinza{
+	background-color: #6e6a6a;
+}
+
 .hero-unit .btn-primary {
 	background-color: #D8450B;
 	background-image: -moz-linear-gradient(top, #D8450B, #E37B52);

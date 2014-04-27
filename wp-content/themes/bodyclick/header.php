@@ -35,8 +35,9 @@
 	?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.min.css" /> 
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-  <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.min.css" /> 
+  
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/jquery.jqzoom.css" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -49,26 +50,35 @@
 
   <body <?php body_class(); ?>>
    <div class="container">
-      <div class="row" style="margin-top: 10px;">
-        <div class="col-md-5" id="logo">
+      <div class="row cinza">
+        <div class="col-md-2" style="margin-top: 10px; margin-bottom: 10px;" id="logo">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="BodyClick">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/logo-bclick2--para-web" alt="Body Click" class="img-responsive">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Body Click" class="img-responsive">
           </a>
         </div>
-        <div class="col-md-7"  style="margin-top: 20px;">
-          
-           <!--<form class="navbar-form pull-right hidden-xs" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control input-lg col-md-7" placeholder="Digite a palavra...">
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-12" style="margin-top: 20px;">
+                <div class="row" style="margin-bottom: 20px;">
+                  <div class="col-md-9">
+                    <h4 class="pull-right"><strong>Receber Ofertas</strong></h4>
+                  </div>
+                  <div class="col-md-3">
+                    <ul class="list-inline">
+                      <li class="pull-left"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-face.png" alt="Facebook" class="img-responsive"></a></li>
+                      <li class="pull-left"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-twitter.png" alt="Twitter" class="img-responsive"></a></li>
+                    </ul>
+                  </div>
                 </div>
-                <button type="submit" class="btn btn-default turquesa">Buscar</button>
-            </form>-->
-            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar Widgets') ) : ?>
-      <?php endif; ?>
+              </div>
+            <div class="col-md-12" >
+                <?php get_search_form(); ?> 
+            </div>
+          </div> 
+        </div>
       </div>
-    </div>
 
-      <div class="row" style="margin-top: 20px;">
+      <div class="row cinza" style="margin-bottom: 20px;">
         <div class="col-md-12">
           <div class="navbar navbar-default" role="navigation">
             <div class="navbar-header">

@@ -11,7 +11,7 @@
  * @subpackage Twenty_Ten
  * @since Twenty Ten 1.0
  */
-get_header(); ?>
+get_header(); echo 'aqui';?>
 <div class="row">
         <div class="col-md-3 hidden-phone">
           <h3>Mais Votadas</h3>

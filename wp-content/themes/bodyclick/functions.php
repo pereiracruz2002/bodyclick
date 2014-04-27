@@ -16,7 +16,7 @@ function custom_search_where($where) {
 }
 add_filter('posts_where', 'custom_search_where');*/
 
-add_theme_support('post-thumbnails', array('post','artigos','banners'));
+add_theme_support('post-thumbnails', array('post','artigos','banners','adsense'));
 register_taxonomy_for_object_type( 'tags', 'artigos' );
 
 //add_theme_support('artigos-thumbnails', array('artigos'));
@@ -33,6 +33,7 @@ if (function_exists('register_sidebar')) {
      ));
 }
 
+/*
 add_action( 'init', 'create_post_type_artigos' );
 function create_post_type_artigos() {
     register_post_type( 'artigos',
@@ -42,7 +43,8 @@ function create_post_type_artigos() {
                 'singular_name' => __( 'Artigos' )
             ),
             'public' => true,
-            'supports' => array('title','editor','author','thumbnail','excerpt','comments')
+            'supports' => array('title','editor','author','thumbnail','excerpt','comments'),
+            'rewrite' => array('slug' => 'artigos', 'with_front' => false)
         )
     );
 }
@@ -59,7 +61,7 @@ function create_taxonomy_artigos_category() {
         )
     );
 }
-
+*/
 add_action( 'init', 'create_post_type_banners' );
 function create_post_type_banners() {
     register_post_type( 'banners',
@@ -67,6 +69,20 @@ function create_post_type_banners() {
             'labels' => array(
                 'name' => __( 'Banners' ),
                 'singular_name' => __( 'Banner' )
+            ),
+            'public' => true,
+            'supports' => array('title','editor','thumbnail')
+        )
+    );
+}
+
+add_action( 'init', 'create_post_type_adsense' );
+function create_post_type_adsense() {
+    register_post_type( 'adsense',
+        array(
+            'labels' => array(
+                'name' => __( 'Adsense' ),
+                'singular_name' => __( 'Adsense' )
             ),
             'public' => true,
             'supports' => array('title','editor','thumbnail')
@@ -90,3 +106,4 @@ function abreviaString($texto, $limite=100, $tres_p = '...'){
   }
   return $novoTexto . $tres_p;
 }
+

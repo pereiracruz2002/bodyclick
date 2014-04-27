@@ -66,15 +66,32 @@ get_header(); ?>
       </div>
       <div class="col-md-4">
       <div class="row">
-        <div class="col-md-12">
+        
+         <?php
+            global $wp_query;
+            $args = array_merge( $wp_query->query_vars, array( 'post_type' => 'adsense' ) );
+            query_posts( $args );
+            $i = 0;
+          ?>
+          <?php while ( have_posts() ) : the_post();?>
+          <?php if($i<2){ $style=' style="margin-bottom: 5px;"';}else{ $style='';}?>
+          <div class="col-md-12" <?php echo $style;?>>
+          <?php $banner = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
+          <a href="<?php echo the_permalink();?>"><img class="media-object img-rounded img-responsive" src="<?php echo $banner[0];?>"></a>
+          </div>
+          <?php
+            $i++;
+            endwhile;
+            // Reset Query
+            wp_reset_query();
+            ?>
+        
+        <!--<div class="col-md-12" style="margin-bottom: 5px;">
           <img src="<?php echo get_template_directory_uri(); ?>/img/static1.jpg">
         </div>
         <div class="col-md-12">
           <img src="<?php echo get_template_directory_uri(); ?>/img/static1.jpg">
-        </div>
-        <div class="col-md-12">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/static1.jpg">
-        </div>
+        </div>-->
       </div>
     </div>
     </div>
@@ -87,25 +104,86 @@ get_header(); ?>
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-3">
-          <h2 class="turquesa">Menus</h2> 
-  <?php
-     $args = array('child_of'=>4,'hide_empty'=>1,'hierarchical'=>0);
-     $my_categories = get_categories($args);
-  ?>
-        <ul class="nav nav-pills nav-stacked category_list">
+          <h3 class="turquesa bordaRedonda"><strong>Categorias</strong></h3> 
+        <?php
+           $args = array('child_of'=>4,'hide_empty'=>1,'hierarchical'=>1,'parent'=>4);
+           $my_categories = get_categories($args);
+        ?>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 400px;">
           <?php foreach( $my_categories as $category ):?>
-        	<li class="active"><a href="<?php echo get_category_link($category->term_id);?>"><?php echo $category->name;?></a></li>
-          <?php endforeach; ?>
-      	</ul>
+            <li class="dropdown-submenu">
+              <a tabindex="-1" href="<?php echo get_category_link($category->term_id);?>"><?php echo $category->name;?></a>
+              
+               <?php
+                  $args_sub = array('child_of'=>$category->term_id,'hide_empty'=>1,'hierarchical'=>1,'parent'=>$category->term_id);
+                  $my_subcategories = get_categories($args_sub);
+                ?>
+                <?php if(count($my_subcategories)>0):?>
+                <ul class="dropdown-menu">
+                <?php foreach( $my_subcategories as $subcategory ):?>
+                  <li class="dropdown-submenu">
+                    <a href="<?php echo get_category_link($subcategory->term_id);?>"><?php echo $subcategory->name;?></a>
+                      <?php
+                        $args_sub_leve3 = array('child_of'=>$subcategory->term_id,'hide_empty'=>1,'hierarchical'=>1,'parent'=>$subcategory->term_id);
+                        $my_subcategories_leve3 = get_categories($args_sub_leve3);
+                      ?>
+                      <?php if(count($my_subcategories_leve3)>0):?>
+                      <ul class="dropdown-menu">
+                        <?php foreach( $my_subcategories_leve3 as $leve3 ):?>
+                            <li><a href="<?php echo get_category_link($leve3->term_id);?>"><?php echo $leve3->name;?></a></li>
+                        <?php endforeach;?>
+                      </ul>
+                      <?php endif;?>
+                  </li>
+                <?php endforeach;?>
+              </ul>
+              <?php endif;?>
+            </li>
+          <?php endforeach;?>
+        </ul>
+        <!--<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 400px;">
+          <li class="dropdown-submenu">
+            <a tabindex="-1" href="#">More options</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu">
+                <a href="#">More..</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">3rd level</a></li>
+                  <li><a href="#">3rd level</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="divider"></li>
+          <li class="dropdown-submenu">
+            <a tabindex="-1" href="#">More options2</a>
+            <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Second level</a></li>
+                <li class="dropdown-submenu">
+                  <a href="#">More..</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level</a></li>
+                    <li><a href="#">3rd level</a></li>
+                  </ul>
+                </li>
+              <li><a href="#">Second level</a></li>
+              <li><a href="#">Second level</a></li>
+            </ul>
+          </li>
+        </ul>-->           
+
 
         </div>
         <div class="col-md-9">
           <div class="row">
             <?php
-            global $wp_query;
-          $args = array_merge( $wp_query->query_vars, array( 'post_type' => 'artigos' ) );
-          query_posts( $args );
-          while ( have_posts() ) : the_post();?>
+            $args = array('category' => 6,
+                    'orderby' => 'post_date',
+                    'order'=> 'DESC',
+                    'numberposts'     => 2);
+            $myposts = get_posts( $args );
+            foreach( $myposts as $post ) :  setup_postdata($post);
+            ?>
             <div class="col-md-12">
               <div class="panel panel-danger">
   			         <div class="panel-heading turquesa"><h4><?php echo the_title();?></h4></div>
@@ -115,13 +193,14 @@ get_header(); ?>
                     //endif;
                    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' ); ?>
 			    	          <img src="<?php echo $image[0];?>" class="flutuar-img">
+                       <a href="<?php the_permalink();?>"><?php the_post_thumbnail('thumbnail', array('class' => 'flutuar-img')); ?></a>
 			    	          <?php echo the_excerpt();?>
                       <p><a class="btn" href="<?php echo the_permalink();?>">Mais Detalhes &raquo;</a></p>
 			              </div>
               </div>
             </div>
             <?php
-            endwhile;
+            endforeach;
 
             // Reset Query
             wp_reset_query();

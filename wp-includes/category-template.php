@@ -447,7 +447,7 @@ function wp_list_categories( $args = '' ) {
 
 	$output = '';
 	if ( $title_li && 'list' == $style )
-			$output = '<li class="' . esc_attr( $class ) . '">' . $title_li . '<ul>';
+			$output = '<li class="' . esc_attr( $class ) . '">' . $title_li . '<ul class="nav nav-pills nav-stacked category_list cinza">';
 
 	if ( empty( $categories ) ) {
 		if ( ! empty( $show_option_none ) ) {
