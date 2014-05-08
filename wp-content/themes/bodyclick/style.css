@@ -60,6 +60,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	margin-right: 5px;
 }
 
+.verde{
+	color:#4CAE4C;
+}
+
+.nome_produto{
+	color:#999;
+	font-weight: bold;
+	font-size: 12px;
+}
+
 .navbar-default{
 	background-color:#bdbdbd;
 	border-color:#bdbdbd;

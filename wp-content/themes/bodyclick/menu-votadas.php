@@ -1,33 +1,5 @@
-<!--<ul class="media-list">
-            <li class="media">
-              <a class="pull-left" href="#">
-                <img class="media-object img-rounded" src="http://placehold.it/64x64">
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.</p>
-              </div>
-            </li>
-            <li class="media">
-              <a class="pull-left" href="#">
-                <img class="media-object img-rounded" src="http://placehold.it/64x64">
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading img-rounded">Media heading</h4>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.</p>
-              </div>
-            </li>
-            <li class="media">
-              <a class="pull-left" href="#">
-                <img class="media-object img-rounded" src="http://placehold.it/64x64">
-              </a>
-              <div class="media-body">
-                <h4 class="media-heading">Media heading</h4>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.</p>
-              </div>
-            </li>
-          </ul>-->
-          <ul class="media-list">
+
+ <ul class="media-list">
 <?php
   $query_popular = new WP_Query(array(
       'v_sortby' => 'views', // Organiza os posts por visitas
@@ -46,3 +18,61 @@
     </div>
 <?php endwhile; endif; wp_reset_query();  ?>
  </ul>
+<?php
+if (is_category() || is_single()):
+?>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Filtrar Por Categoria</h3>
+  </div>
+  <div class="panel-body">
+    <form role="form">
+      <div class="checkbox">
+    <?php
+     $atual_cat = get_query_var('cat');
+     $args = array('child_of'=>$atual_cat,'hide_empty'=>1,'hierarchical'=>1,'parent'=>$atual_cat);
+     $my_categories = get_categories($args);
+     if($my_categories):
+       foreach( $my_categories as $category ):?>
+          <label>
+            <input type="checkbox"> <?php echo $category->name;?>
+          </label>
+    <?php
+       endforeach;
+     endif;
+    ?>
+    
+  </div>
+    </form>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Filtrar Por Preço</h3>
+  </div>
+  <div class="panel-body">
+    <form role="form">
+      <div class="checkbox">
+<?php 
+query_posts("showposts=1&cat={$atual_cat}");?>
+<?php 
+if (have_posts()): 
+  $i=0;
+  while (have_posts()) : the_post();
+    $preco = get_post_custom_values("preco",$post->ID);
+?>
+   <label>
+      <input type="checkbox"> <?php echo $preco[$i];?>
+    </label>
+<?php
+  $i++;
+  endwhile;
+endif;
+?>
+  </div>
+    </form>
+  </div>
+</div>
+<?php
+endif;
+?>

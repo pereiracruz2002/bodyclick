@@ -103,3 +103,4 @@
           </div><!--final da navbar-->
         </div><!--final da coluna-->
       </div><!--final da linha-->
+      <?php the_breadcrumb(); ?>

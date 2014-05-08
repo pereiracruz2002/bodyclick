@@ -26,21 +26,18 @@ get_header();
 				</div>
 				<?php if ( have_posts() ) : ?>
 					<?php while ( have_posts() ) : the_post();?>
-					<div class="col-md-4">
-						<div class="panel panel-danger">
-							<div class="panel-heading turquesa"><h4 class="text-center"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h4></div>
-								<div class="panel-body">
-									<div class="row">
-										<div class="col-md-6">
-											<a href="<?php the_permalink();?>"><?php the_post_thumbnail('thumbnail', array('class' => 'media-object img-rounded')); ?></a>
-										</div>
-									<div class="col-md-6">
-										<p><span class="label label-info">Novo</span></p>
-										<p>Preço</p>
-									</div>
-								</div>
+					<?php $preco = get_post_custom_values("preco");?>
+					<div class="col-md-3">
+						<div class="row">
+							<div class="col-md-12">
+								<a href="<?php the_permalink();?>"><?php the_post_thumbnail('thumbnail', array('class' => 'media-object img-rounded')); ?></a>
 							</div>
-						</div>
+							<div class="col-md-12">
+								<h5><a class="nome_produto" href="<?php the_permalink();?>"><?php the_title(); ?></a></h5>
+							</div>
+							<div class="col-md-10 col-md-offset-2">
+								<p class="verde"><strong><?php echo $preco[0];?><strong></p>
+							</div>
 					</div>
 					<?php endwhile;?>
 			<?php else: ?>

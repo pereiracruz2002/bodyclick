@@ -63,6 +63,7 @@ get_header();
               </div>
               <div class="col-md-7" style="margin-bottom: 20px;">
                 <?php the_content(); ?>
+
                 <?php //echo get_post_custom_values("preco")[0];?>
                 <?php //echo get_post_custom_values("tamanho")[0];?>
               </div>
@@ -120,7 +121,9 @@ get_header();
               <button class="btn btn-info">&rarr;</button>
             </div>-->
             <div class="clearfix"></div>
+            <?php comments_template( '', true ); ?>
             <div class="comentario-post well" style="margin-top: 20px;">
+            
               <h3>Comentários do Post</h3>
               <div class="row">
                 <div class="col-md-4">
