@@ -23,9 +23,10 @@
     <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-   
+  <script type='text/javascript'>var base_url ="<?php echo get_bloginfo('url');?>"</script>
   <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js'></script>
   <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/jquery.jqzoom-core.js'></script>
+  <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/utility.js'></script>
 
     <script type="text/javascript">
       $(function () {
