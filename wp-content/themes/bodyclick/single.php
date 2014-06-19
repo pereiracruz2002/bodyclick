@@ -73,7 +73,7 @@ get_header();
 					       <?php //the_content(); ?>
                  <div class="row" style="margin-top: 20px;">
                    <div class="col-md-12">
-                    <h3>Sites Disponíveis</h3>
+                    <h3>Lojas Disponíveis</h3>
                     <?php 
                     $loja = get_post_custom_values("loja");
                     $sites = get_post_custom_values("url_site");
